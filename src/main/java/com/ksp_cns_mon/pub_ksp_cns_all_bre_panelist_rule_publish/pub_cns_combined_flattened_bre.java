@@ -30,26 +30,26 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_data_week;
 	private java.lang.String data_data_week_number;
 	private java.lang.String data_data_day;
-	private int data_ppmonth;
-	private int data_ppweek;
+	private java.lang.Integer data_ppmonth;
+	private java.lang.Integer data_ppweek;
 	private java.lang.String data_added_date;
 	private java.lang.String data_updated_date;
 	private java.lang.String data_load_id;
 	private java.util.List<java.lang.String> data_primary_key = new ArrayList<java.lang.String>();
-	private long data_panelist_id;
+	private java.lang.Long data_panelist_id;
 	private java.lang.String data_transaction_id;
-	private int data_transaction_level;
+	private java.lang.Integer data_transaction_level;
 	private java.lang.String data_transaction_number;
 	private java.lang.String data_survey_start_date;
-	private int data_user_age;
+	private java.lang.Integer data_user_age;
 	private java.lang.String data_user_infant_age;
-	private long data_user_gender;
-	private long data_outlet;
-	private long data_brand;
-	private long data_subcategory_code;
+	private java.lang.Long data_user_gender;
+	private java.lang.Long data_outlet;
+	private java.lang.Long data_brand;
+	private java.lang.Long data_subcategory_code;
 	private java.lang.String data_purchase_method;
 	private java.lang.String data_purchase_type;
-	private long data_on_sale;
+	private java.lang.Long data_on_sale;
 	private java.util.List<java.lang.Long> data_multi_choice_codes_01 = new ArrayList<java.lang.Long>();
 	private java.lang.String string_data_multi_choice_codes_01;
 	private java.util.List<java.lang.String> data_multi_choice_codes_02 = new ArrayList<java.lang.String>();
@@ -428,128 +428,128 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_mail_date;
 	private java.lang.String data_confirmit_jobnum;
 	private java.lang.String data_reserved_fields__filler_2;
-	private double data_price;
+	private java.lang.Double data_price;
 	private java.lang.String data_units_per_household;
 	private java.lang.String data_npd_item_id;
-	private long data_units_per_package;
+	private java.lang.Long data_units_per_package;
 	private java.lang.String data_npd_attr_0;
-	private long data_npd_attr_1;
+	private java.lang.Long data_npd_attr_1;
 	private java.lang.String data_npd_attr_2;
-	private long data_npd_attr_3;
-	private long data_npd_attr_4;
-	private long data_npd_attr_5;
-	private long data_npd_attr_6;
-	private long data_npd_attr_7;
-	private long data_npd_attr_8;
-	private long data_npd_attr_9;
-	private long data_npd_attr_10;
-	private long data_npd_attr_11;
-	private long data_npd_attr_12;
+	private java.lang.Long data_npd_attr_3;
+	private java.lang.Long data_npd_attr_4;
+	private java.lang.Long data_npd_attr_5;
+	private java.lang.Long data_npd_attr_6;
+	private java.lang.Long data_npd_attr_7;
+	private java.lang.Long data_npd_attr_8;
+	private java.lang.Long data_npd_attr_9;
+	private java.lang.Long data_npd_attr_10;
+	private java.lang.Long data_npd_attr_11;
+	private java.lang.Long data_npd_attr_12;
 	private java.lang.String data_npd_attr_13;
-	private long data_npd_attr_14;
-	private long data_npd_attr_15;
-	private long data_npd_attr_16;
-	private long data_npd_attr_17;
-	private long data_npd_attr_18;
-	private long data_npd_attr_19;
-	private long data_npd_attr_20;
-	private long data_npd_attr_21;
-	private long data_npd_attr_22;
-	private long data_npd_attr_23;
-	private long data_npd_attr_24;
-	private long data_npd_attr_25;
-	private long data_npd_attr_26;
-	private long data_npd_attr_27;
-	private long data_npd_attr_28;
-	private long data_npd_attr_29;
-	private long data_npd_attr_30;
-	private long data_npd_attr_31;
-	private long data_npd_attr_32;
-	private long data_npd_attr_33;
-	private long data_npd_attr_34;
-	private long data_npd_attr_35;
-	private long data_npd_attr_36;
-	private long data_npd_attr_37;
-	private long data_npd_attr_38;
-	private long data_npd_attr_39;
-	private long data_npd_attr_40;
-	private double data_npd_attr_41;
-	private long data_npd_attr_42;
-	private long data_npd_attr_43;
-	private long data_npd_attr_44;
-	private long data_npd_attr_45;
-	private long data_npd_attr_46;
-	private long data_npd_attr_47;
-	private long data_npd_attr_48;
-	private long data_npd_attr_49;
-	private long data_npd_attr_50;
-	private long data_npd_attr_51;
-	private long data_npd_attr_52;
-	private long data_npd_attr_53;
-	private long data_npd_attr_54;
-	private long data_npd_attr_55;
-	private long data_npd_attr_56;
-	private long data_npd_attr_57;
-	private long data_npd_attr_58;
-	private long data_npd_attr_59;
-	private long data_npd_attr_60;
-	private long data_npd_attr_61;
-	private long data_npd_attr_62;
-	private double data_npd_attr_63;
-	private double data_npd_attr_64;
-	private long data_npd_attr_65;
-	private long data_npd_attr_66;
-	private long data_npd_attr_67;
-	private long data_npd_attr_68;
-	private long data_npd_attr_69;
-	private long data_npd_attr_70;
-	private long data_npd_attr_71;
-	private long data_npd_attr_72;
-	private long data_npd_attr_73;
-	private long data_npd_attr_74;
-	private double data_npd_attr_75;
-	private long data_npd_attr_76;
+	private java.lang.Long data_npd_attr_14;
+	private java.lang.Long data_npd_attr_15;
+	private java.lang.Long data_npd_attr_16;
+	private java.lang.Long data_npd_attr_17;
+	private java.lang.Long data_npd_attr_18;
+	private java.lang.Long data_npd_attr_19;
+	private java.lang.Long data_npd_attr_20;
+	private java.lang.Long data_npd_attr_21;
+	private java.lang.Long data_npd_attr_22;
+	private java.lang.Long data_npd_attr_23;
+	private java.lang.Long data_npd_attr_24;
+	private java.lang.Long data_npd_attr_25;
+	private java.lang.Long data_npd_attr_26;
+	private java.lang.Long data_npd_attr_27;
+	private java.lang.Long data_npd_attr_28;
+	private java.lang.Long data_npd_attr_29;
+	private java.lang.Long data_npd_attr_30;
+	private java.lang.Long data_npd_attr_31;
+	private java.lang.Long data_npd_attr_32;
+	private java.lang.Long data_npd_attr_33;
+	private java.lang.Long data_npd_attr_34;
+	private java.lang.Long data_npd_attr_35;
+	private java.lang.Long data_npd_attr_36;
+	private java.lang.Long data_npd_attr_37;
+	private java.lang.Long data_npd_attr_38;
+	private java.lang.Long data_npd_attr_39;
+	private java.lang.Long data_npd_attr_40;
+	private java.lang.Double data_npd_attr_41;
+	private java.lang.Long data_npd_attr_42;
+	private java.lang.Long data_npd_attr_43;
+	private java.lang.Long data_npd_attr_44;
+	private java.lang.Long data_npd_attr_45;
+	private java.lang.Long data_npd_attr_46;
+	private java.lang.Long data_npd_attr_47;
+	private java.lang.Long data_npd_attr_48;
+	private java.lang.Long data_npd_attr_49;
+	private java.lang.Long data_npd_attr_50;
+	private java.lang.Long data_npd_attr_51;
+	private java.lang.Long data_npd_attr_52;
+	private java.lang.Long data_npd_attr_53;
+	private java.lang.Long data_npd_attr_54;
+	private java.lang.Long data_npd_attr_55;
+	private java.lang.Long data_npd_attr_56;
+	private java.lang.Long data_npd_attr_57;
+	private java.lang.Long data_npd_attr_58;
+	private java.lang.Long data_npd_attr_59;
+	private java.lang.Long data_npd_attr_60;
+	private java.lang.Long data_npd_attr_61;
+	private java.lang.Long data_npd_attr_62;
+	private java.lang.Double data_npd_attr_63;
+	private java.lang.Double data_npd_attr_64;
+	private java.lang.Long data_npd_attr_65;
+	private java.lang.Long data_npd_attr_66;
+	private java.lang.Long data_npd_attr_67;
+	private java.lang.Long data_npd_attr_68;
+	private java.lang.Long data_npd_attr_69;
+	private java.lang.Long data_npd_attr_70;
+	private java.lang.Long data_npd_attr_71;
+	private java.lang.Long data_npd_attr_72;
+	private java.lang.Long data_npd_attr_73;
+	private java.lang.Long data_npd_attr_74;
+	private java.lang.Double data_npd_attr_75;
+	private java.lang.Long data_npd_attr_76;
 	private java.lang.String data_npd_attr_77;
-	private long data_npd_attr_78;
-	private long data_npd_attr_79;
-	private long data_npd_attr_80;
-	private long data_npd_attr_81;
-	private long data_npd_attr_82;
-	private long data_npd_attr_83;
-	private java.lang.String data_npd_attr_84;
-	private long data_npd_attr_85;
-	private long data_npd_attr_86;
-	private long data_npd_attr_87;
-	private long data_npd_attr_88;
-	private long data_npd_attr_89;
-	private long data_npd_attr_90;
-	private long data_npd_attr_91;
-	private long data_npd_attr_92;
-	private double data_npd_attr_93;
-	private double data_npd_attr_94;
-	private long data_npd_attr_95;
-	private long data_npd_attr_96;
-	private long data_npd_attr_97;
-	private long data_npd_attr_98;
-	private long data_npd_attr_99;
-	private long data_npd_attr_100;
-	private long data_npd_attr_101;
-	private long data_npd_attr_102;
-	private long data_npd_attr_103;
-	private long data_npd_attr_104;
-	private long data_npd_attr_105;
-	private long data_npd_attr_106;
-	private long data_npd_attr_107;
-	private long data_npd_attr_108;
-	private long data_npd_attr_109;
-	private long data_npd_attr_110;
-	private long data_npd_attr_111;
-	private long data_npd_attr_112;
-	private long data_npd_attr_113;
-	private long data_npd_attr_114;
-	private long data_npd_attr_115;
-	private long data_npd_attr_116;
-	private long data_npd_attr_117;
+	private java.lang.Long data_npd_attr_78;
+	private java.lang.Long data_npd_attr_79;
+	private java.lang.Long data_npd_attr_80;
+	private java.lang.Long data_npd_attr_81;
+	private java.lang.Long data_npd_attr_82;
+	private java.lang.Long data_npd_attr_83;
+	private java.lang.Long data_npd_attr_84;
+	private java.lang.Long data_npd_attr_85;
+	private java.lang.Long data_npd_attr_86;
+	private java.lang.Long data_npd_attr_87;
+	private java.lang.Long data_npd_attr_88;
+	private java.lang.Long data_npd_attr_89;
+	private java.lang.Long data_npd_attr_90;
+	private java.lang.Long data_npd_attr_91;
+	private java.lang.Long data_npd_attr_92;
+	private java.lang.Double data_npd_attr_93;
+	private java.lang.Double data_npd_attr_94;
+	private java.lang.Long data_npd_attr_95;
+	private java.lang.Long data_npd_attr_96;
+	private java.lang.Long data_npd_attr_97;
+	private java.lang.Long data_npd_attr_98;
+	private java.lang.Long data_npd_attr_99;
+	private java.lang.Long data_npd_attr_100;
+	private java.lang.Long data_npd_attr_101;
+	private java.lang.Long data_npd_attr_102;
+	private java.lang.Long data_npd_attr_103;
+	private java.lang.Long data_npd_attr_104;
+	private java.lang.Long data_npd_attr_105;
+	private java.lang.Long data_npd_attr_106;
+	private java.lang.Long data_npd_attr_107;
+	private java.lang.Long data_npd_attr_108;
+	private java.lang.Long data_npd_attr_109;
+	private java.lang.Long data_npd_attr_110;
+	private java.lang.Long data_npd_attr_111;
+	private java.lang.Long data_npd_attr_112;
+	private java.lang.Long data_npd_attr_113;
+	private java.lang.Long data_npd_attr_114;
+	private java.lang.Long data_npd_attr_115;
+	private java.lang.Long data_npd_attr_116;
+	private java.lang.Long data_npd_attr_117;
 	private java.lang.String data_npd_attr_118;
 	private java.lang.String data_npd_attr_119;
 	private java.lang.String data_npd_attr_120;
@@ -683,10 +683,10 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_npd_attr_248;
 	private java.lang.String data_npd_attr_249;
 	private java.lang.String data_npd_attr_250;
-	private long data_measures_source__units;
+	private java.lang.Long data_measures_source__units;
 	private java.lang.String data_measures_source__sales;
-	private long data_measures__units;
-	private long data_measures__sales;
+	private java.lang.Long data_measures__units;
+	private java.lang.Long data_measures__sales;
 	private java.lang.String data_measures_factored__units;
 	private java.lang.String data_measures_factored__sales;
 	private java.lang.String data_blocking_type;
@@ -812,8 +812,8 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_npd_item__parent_item_id;
 	private java.lang.String data_npd_item__parent_item_id_status;
 	private java.lang.String data_npd_item__item_filler;
-	private int data_status;
-	private long data_counter_01;
+	private java.lang.Integer data_status;
+	private java.lang.Long data_counter_01;
 	private java.lang.String data_counter_02;
 	private java.lang.String data_counter_03;
 	private java.lang.String data_counter_04;
@@ -823,8 +823,8 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_time_dim__quarter;
 	private java.lang.String data_time_dim__half_year;
 	private java.lang.String data_time_dim__year;
-	private long data_category_dim__level_0;
-	private long data_category_dim__level_1;
+	private java.lang.Long data_category_dim__level_0;
+	private java.lang.Long data_category_dim__level_1;
 	private java.lang.String data_category_dim__level_2;
 	private java.lang.String data_category_dim__level_3;
 	private java.lang.String data_category_dim__level_4;
@@ -844,7 +844,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_brand_dim__level_8;
 	private java.lang.String data_brand_dim__level_9;
 	private java.lang.String data_channel_dim__level_0;
-	private long data_channel_dim__level_1;
+	private java.lang.Long data_channel_dim__level_1;
 	private java.lang.String data_channel_dim__level_2;
 	private java.lang.String data_channel_dim__level_3;
 	private java.lang.String data_channel_dim__level_4;
@@ -855,17 +855,17 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_channel_dim__level_9;
 	private java.lang.String data_outlet_family_dim__level_0;
 	private java.lang.String data_outlet_family_dim__level_1;
-	private double data_factor_values_0;
-	private double data_factor_values_1;
-	private double data_factor_values_2;
-	private double data_factor_values_3;
-	private double data_factor_values_4;
-	private double data_factor_values_5;
-	private double data_factor_values_6;
-	private double data_factor_values_7;
-	private double data_factor_values_8;
+	private java.lang.Double data_factor_values_0;
+	private java.lang.Double data_factor_values_1;
+	private java.lang.Double data_factor_values_2;
+	private java.lang.Double data_factor_values_3;
+	private java.lang.Double data_factor_values_4;
+	private java.lang.Double data_factor_values_5;
+	private java.lang.Double data_factor_values_6;
+	private java.lang.Double data_factor_values_7;
+	private java.lang.Double data_factor_values_8;
 	private java.lang.String data_factor_values_9;
-	private double data_factor_values_10;
+	private java.lang.Double data_factor_values_10;
 	private java.lang.String data_factor_values_11;
 	private java.lang.String data_factor_values_12;
 	private java.lang.String data_factor_values_13;
@@ -1052,23 +1052,23 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String panelist_data_week;
 	private java.lang.String panelist_data_week_number;
 	private java.lang.String panelist_data_day;
-	private int panelist_ppmonth;
-	private int panelist_ppweek;
+	private java.lang.Integer panelist_ppmonth;
+	private java.lang.Integer panelist_ppweek;
 	private java.lang.String panelist_added_date;
 	private java.lang.String panelist_updated_date;
 	private java.lang.String panelist_load_id;
 	private java.util.List<java.lang.String> panelist_primary_key  = new ArrayList<java.lang.String>();
-	private long panelist_panelist_id;
+	private java.lang.Long panelist_panelist_id;
 	private java.lang.String panelist_projection_date;
 	private java.lang.String panelist_survey_start_date;
 	private java.lang.String panelist_household_head;
-	private int panelist_age;
+	private java.lang.Integer panelist_age;
 	private java.lang.String panelist_male_head_age;
 	private java.lang.String panelist_female_head_age;
 	private java.lang.String panelist_head_of_household_age;
-	private int panelist_survey_age;
-	private long panelist_gender;
-	private long panelist_survey_gender;
+	private java.lang.Integer panelist_survey_age;
+	private java.lang.Long panelist_gender;
+	private java.lang.Long panelist_survey_gender;
 	private java.lang.String panelist_race;
 	private java.lang.String panelist_hispanic;
 	private java.lang.String panelist_ethnic_group;
@@ -1086,7 +1086,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String panelist_female_head_education;
 	private java.lang.String panelist_buyer;
 	private java.lang.String panelist_household_income;
-	private long panelist_household_size;
+	private java.lang.Long panelist_household_size;
 	private java.lang.String panelist_household_composition;
 	private java.lang.String panelist_age_of_children;
 	private java.lang.String panelist_life_cycle;
@@ -1096,12 +1096,12 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String panelist_market_size;
 	private java.lang.String panelist_cbsa_market_size;
 	private java.lang.String panelist_pg_market_size;
-	private long panelist_state;
+	private java.lang.Long panelist_state;
 	private java.lang.String panelist_dma;
 	private java.lang.String panelist_msa;
 	private java.lang.String panelist_postal_code;
 	private java.lang.String panelist_group_number;
-	private long panelist_number_of_trackers;
+	private java.lang.Long panelist_number_of_trackers;
 	private java.lang.String panelist_number_of_trackers_6mos;
 	private java.lang.String panelist_days_on_panel;
 	private java.lang.String panelist_active_days_on_panel;
@@ -1121,20 +1121,20 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String panelist_mega_reclaim_counter;
 	private java.lang.String panelist_proh_reclaim_counter;
 	private java.lang.String panelist_inactive_reclaim_counter;
-	private double panelist_factors__projection_factor;
-	private double panelist_factors__routing_factor;
+	private java.lang.Double panelist_factors__projection_factor;
+	private java.lang.Double panelist_factors__routing_factor;
 	private java.lang.String panelist_panelist_attr_0;
-	private long panelist_panelist_attr_1;
+	private java.lang.Long panelist_panelist_attr_1;
 	private java.lang.String panelist_panelist_attr_2;
-	private long panelist_panelist_attr_3;
-	private long panelist_panelist_attr_4;
-	private long panelist_panelist_attr_5;
+	private java.lang.Long panelist_panelist_attr_3;
+	private java.lang.Long panelist_panelist_attr_4;
+	private java.lang.Long panelist_panelist_attr_5;
 	private java.lang.String panelist_panelist_attr_6;
 	private java.lang.String panelist_panelist_attr_7;
-	private long panelist_panelist_attr_8;
+	private java.lang.Long panelist_panelist_attr_8;
 	private java.lang.String panelist_panelist_attr_9;
 	private java.lang.String panelist_panelist_attr_10;
-	private long panelist_panelist_attr_11;
+	private java.lang.Long panelist_panelist_attr_11;
 	private java.lang.String panelist_panelist_attr_12;
 	private java.lang.String panelist_panelist_attr_13;
 	private java.lang.String panelist_panelist_attr_14;
@@ -1143,60 +1143,60 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String panelist_panelist_attr_17;
 	private java.lang.String panelist_panelist_attr_18;
 	private java.lang.String panelist_panelist_attr_19;
-	private long panelist_panelist_attr_20;
-	private long panelist_panelist_attr_21;
+	private java.lang.Long panelist_panelist_attr_20;
+	private java.lang.Long panelist_panelist_attr_21;
 	private java.lang.String panelist_panelist_attr_22;
-	private long panelist_panelist_attr_23;
-	private long panelist_panelist_attr_24;
-	private long panelist_panelist_attr_25;
-	private long panelist_panelist_attr_26;
+	private java.lang.Long panelist_panelist_attr_23;
+	private java.lang.Long panelist_panelist_attr_24;
+	private java.lang.Long panelist_panelist_attr_25;
+	private java.lang.Long panelist_panelist_attr_26;
 	private java.lang.String panelist_panelist_attr_27;
-	private long panelist_panelist_attr_28;
-	private long panelist_panelist_attr_29;
-	private long panelist_panelist_attr_30;
-	private double panelist_panelist_attr_31;
-	private long panelist_panelist_attr_32;
+	private java.lang.Long panelist_panelist_attr_28;
+	private java.lang.Long panelist_panelist_attr_29;
+	private java.lang.Long panelist_panelist_attr_30;
+	private java.lang.Double panelist_panelist_attr_31;
+	private java.lang.Long panelist_panelist_attr_32;
 	private java.lang.String panelist_panelist_attr_33;
-	private long panelist_panelist_attr_34;
-	private long panelist_panelist_attr_35;
+	private java.lang.Long panelist_panelist_attr_34;
+	private java.lang.Long panelist_panelist_attr_35;
 	private java.lang.String panelist_panelist_attr_36;
-	private long panelist_panelist_attr_37;
-	private long panelist_panelist_attr_38;
-	private long panelist_panelist_attr_39;
-	private java.lang.String panelist_panelist_attr_40;
+	private java.lang.Long panelist_panelist_attr_37;
+	private java.lang.Long panelist_panelist_attr_38;
+	private java.lang.Long panelist_panelist_attr_39;
+	private java.lang.Long panelist_panelist_attr_40;
 	private java.lang.String panelist_panelist_attr_41;
-	private long panelist_panelist_attr_42;
-	private long panelist_panelist_attr_43;
-	private long panelist_panelist_attr_44;
+	private java.lang.Long panelist_panelist_attr_42;
+	private java.lang.Long panelist_panelist_attr_43;
+	private java.lang.Long panelist_panelist_attr_44;
 	private java.lang.String panelist_panelist_attr_45;
-	private long panelist_panelist_attr_46;
+	private java.lang.Long panelist_panelist_attr_46;
 	private java.lang.String panelist_panelist_attr_47;
 	private java.lang.String panelist_panelist_attr_48;
 	private java.lang.String panelist_panelist_attr_49;
 	private java.lang.String panelist_panelist_attr_50;
 	private java.lang.String panelist_panelist_attr_51;
 	private java.lang.String panelist_panelist_attr_52;
-	private long panelist_panelist_attr_53;
-	private long panelist_panelist_attr_54;
+	private java.lang.Long panelist_panelist_attr_53;
+	private java.lang.Long panelist_panelist_attr_54;
 	private java.lang.String panelist_panelist_attr_55;
-	private long panelist_panelist_attr_56;
-	private long panelist_panelist_attr_57;
-	private long panelist_panelist_attr_58;
+	private java.lang.Long panelist_panelist_attr_56;
+	private java.lang.Long panelist_panelist_attr_57;
+	private java.lang.Long panelist_panelist_attr_58;
 	private java.lang.String panelist_panelist_attr_59;
 	private java.lang.String panelist_panelist_attr_60;
-	private long panelist_panelist_attr_61;
-	private long panelist_panelist_attr_62;
-	private long panelist_panelist_attr_63;
-	private long panelist_panelist_attr_64;
-	private long panelist_panelist_attr_65;
-	private long panelist_panelist_attr_66;
-	private long panelist_panelist_attr_67;
-	private long panelist_panelist_attr_68;
-	private long panelist_panelist_attr_69;
-	private long panelist_panelist_attr_70;
-	private long panelist_panelist_attr_71;
-	private long panelist_panelist_attr_72;
-	private long panelist_panelist_attr_73;
+	private java.lang.Long panelist_panelist_attr_61;
+	private java.lang.Long panelist_panelist_attr_62;
+	private java.lang.Long panelist_panelist_attr_63;
+	private java.lang.Long panelist_panelist_attr_64;
+	private java.lang.Long panelist_panelist_attr_65;
+	private java.lang.Long panelist_panelist_attr_66;
+	private java.lang.Long panelist_panelist_attr_67;
+	private java.lang.Long panelist_panelist_attr_68;
+	private java.lang.Long panelist_panelist_attr_69;
+	private java.lang.Long panelist_panelist_attr_70;
+	private java.lang.Long panelist_panelist_attr_71;
+	private java.lang.Long panelist_panelist_attr_72;
+	private java.lang.Long panelist_panelist_attr_73;
 	private java.lang.String panelist_panelist_attr_74;
 	private java.lang.String panelist_panelist_attr_75;
 	private java.lang.String panelist_panelist_attr_76;
@@ -1215,8 +1215,8 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String panelist_panelist_attr_89;
 	private java.lang.String panelist_panelist_attr_90;
 	private java.lang.String panelist_panelist_attr_91;
-	private long panelist_panelist_attr_92;
-	private long panelist_panelist_attr_93;
+	private java.lang.Long panelist_panelist_attr_92;
+	private java.lang.Long panelist_panelist_attr_93;
 	private java.lang.String panelist_panelist_attr_94;
 	private java.lang.String panelist_panelist_attr_95;
 	private java.lang.String panelist_panelist_attr_96;
@@ -1602,7 +1602,7 @@ private java.lang.String panelist_panelist_attr_100;
 	private java.lang.String panelist_reserved_fields__filler_1;
 	private java.lang.String panelist_mail_date;
 	private java.lang.String panelist_confirmit_jobnum;
-	private long panelist_education_dim__level_0;
+	private java.lang.Long panelist_education_dim__level_0;
 	private java.lang.String panelist_education_dim__level_1;
 	private java.lang.String panelist_education_dim__level_2;
 	private java.lang.String panelist_education_dim__level_3;
@@ -1610,8 +1610,8 @@ private java.lang.String panelist_panelist_attr_100;
 	private java.lang.String panelist_education_dim__level_5;
 	private java.lang.String panelist_education_dim__level_6;
 	private java.lang.String panelist_education_dim__level_7;
-	private long panelist_education_dim__level_8;
-	private long panelist_education_dim__level_9;
+	private java.lang.Long panelist_education_dim__level_8;
+	private java.lang.Long panelist_education_dim__level_9;
 	private java.lang.String panelist_geo_dim__level_0;
 	private java.lang.String panelist_geo_dim__level_1;
 	private java.lang.String panelist_geo_dim__level_2;
@@ -1643,10 +1643,10 @@ private java.lang.String panelist_panelist_attr_100;
 	private java.lang.String panelist_household_income_dim__level_8;
 	private java.lang.String panelist_household_income_dim__level_9;
 	private java.lang.String panelist_complete_flag;
-	private int panelist_status;
-	private long panelist_factor_values_0;
-	private long panelist_factor_values_1;
-	private double panelist_factor_values_2;
+	private java.lang.Integer panelist_status;
+	private java.lang.Long panelist_factor_values_0;
+	private java.lang.Long panelist_factor_values_1;
+	private java.lang.Double panelist_factor_values_2;
 	private java.lang.String panelist_factor_values_3;
 	private java.lang.String panelist_factor_values_4;
 	private java.lang.String panelist_factor_values_5;
@@ -1654,8 +1654,8 @@ private java.lang.String panelist_panelist_attr_100;
 	private java.lang.String panelist_factor_values_7;
 	private java.lang.String panelist_factor_values_8;
 	private java.lang.String panelist_factor_values_9;
-	private long panelist_factor_values_10;
-	private long panelist_factor_values_11;
+	private java.lang.Long panelist_factor_values_10;
+	private java.lang.Long panelist_factor_values_11;
 	private java.lang.String panelist_factor_values_12;
 	private java.lang.String panelist_factor_values_13;
 	private java.lang.String panelist_factor_values_14;
@@ -1916,19 +1916,19 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_data_day = data_data_day;
 	}
 
-	public int getData_ppmonth() {
+	public java.lang.Integer getData_ppmonth() {
 		return this.data_ppmonth;
 	}
 
-	public void setData_ppmonth(int data_ppmonth) {
+	public void setData_ppmonth(java.lang.Integer data_ppmonth) {
 		this.data_ppmonth = data_ppmonth;
 	}
 
-	public int getData_ppweek() {
+	public java.lang.Integer getData_ppweek() {
 		return this.data_ppweek;
 	}
 
-	public void setData_ppweek(int data_ppweek) {
+	public void setData_ppweek(java.lang.Integer data_ppweek) {
 		this.data_ppweek = data_ppweek;
 	}
 
@@ -1965,11 +1965,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_primary_key = data_primary_key;
 	}
 
-	public long getData_panelist_id() {
+	public java.lang.Long getData_panelist_id() {
 		return this.data_panelist_id;
 	}
 
-	public void setData_panelist_id(long data_panelist_id) {
+	public void setData_panelist_id(java.lang.Long data_panelist_id) {
 		this.data_panelist_id = data_panelist_id;
 	}
 
@@ -1981,11 +1981,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_transaction_id = data_transaction_id;
 	}
 
-	public int getData_transaction_level() {
+	public java.lang.Integer getData_transaction_level() {
 		return this.data_transaction_level;
 	}
 
-	public void setData_transaction_level(int data_transaction_level) {
+	public void setData_transaction_level(java.lang.Integer data_transaction_level) {
 		this.data_transaction_level = data_transaction_level;
 	}
 
@@ -2007,11 +2007,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_survey_start_date = data_survey_start_date;
 	}
 
-	public int getData_user_age() {
+	public java.lang.Integer getData_user_age() {
 		return this.data_user_age;
 	}
 
-	public void setData_user_age(int data_user_age) {
+	public void setData_user_age(java.lang.Integer data_user_age) {
 		this.data_user_age = data_user_age;
 	}
 
@@ -2023,35 +2023,35 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_user_infant_age = data_user_infant_age;
 	}
 
-	public long getData_user_gender() {
+	public java.lang.Long getData_user_gender() {
 		return this.data_user_gender;
 	}
 
-	public void setData_user_gender(long data_user_gender) {
+	public void setData_user_gender(java.lang.Long data_user_gender) {
 		this.data_user_gender = data_user_gender;
 	}
 
-	public long getData_outlet() {
+	public java.lang.Long getData_outlet() {
 		return this.data_outlet;
 	}
 
-	public void setData_outlet(long data_outlet) {
+	public void setData_outlet(java.lang.Long data_outlet) {
 		this.data_outlet = data_outlet;
 	}
 
-	public long getData_brand() {
+	public java.lang.Long getData_brand() {
 		return this.data_brand;
 	}
 
-	public void setData_brand(long data_brand) {
+	public void setData_brand(java.lang.Long data_brand) {
 		this.data_brand = data_brand;
 	}
 
-	public long getData_subcategory_code() {
+	public java.lang.Long getData_subcategory_code() {
 		return this.data_subcategory_code;
 	}
 
-	public void setData_subcategory_code(long data_subcategory_code) {
+	public void setData_subcategory_code(java.lang.Long data_subcategory_code) {
 		this.data_subcategory_code = data_subcategory_code;
 	}
 
@@ -2071,11 +2071,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_purchase_type = data_purchase_type;
 	}
 
-	public long getData_on_sale() {
+	public java.lang.Long getData_on_sale() {
 		return this.data_on_sale;
 	}
 
-	public void setData_on_sale(long data_on_sale) {
+	public void setData_on_sale(java.lang.Long data_on_sale) {
 		this.data_on_sale = data_on_sale;
 	}
 	
@@ -2084,7 +2084,7 @@ private java.lang.String panelist_panelist_attr_100;
 	}
 
 	public void setData_multi_choice_codes_01(
-			long drools_data_multi_choice_codes_01) {
+			java.lang.Long drools_data_multi_choice_codes_01) {
 		this.data_multi_choice_codes_01.add(drools_data_multi_choice_codes_01);
 	}
 
@@ -5564,11 +5564,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_reserved_fields__filler_2 = data_reserved_fields__filler_2;
 	}
 
-	public double getData_price() {
+	public java.lang.Double getData_price() {
 		return this.data_price;
 	}
 
-	public void setData_price(double data_price) {
+	public void setData_price(java.lang.Double data_price) {
 		this.data_price = data_price;
 	}
 
@@ -5589,11 +5589,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_npd_item_id = data_npd_item_id;
 	}
 
-	public long getData_units_per_package() {
+	public java.lang.Long getData_units_per_package() {
 		return this.data_units_per_package;
 	}
 
-	public void setData_units_per_package(long data_units_per_package) {
+	public void setData_units_per_package(java.lang.Long data_units_per_package) {
 		this.data_units_per_package = data_units_per_package;
 	}
 
@@ -5605,11 +5605,11 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_npd_attr_0 = data_npd_attr_0;
 	}
 
-	public long getData_npd_attr_1() {
+	public java.lang.Long getData_npd_attr_1() {
 		return this.data_npd_attr_1;
 	}
 
-	public void setData_npd_attr_1(long data_npd_attr_1) {
+	public void setData_npd_attr_1(java.lang.Long data_npd_attr_1) {
 		this.data_npd_attr_1 = data_npd_attr_1;
 	}
 
@@ -5621,83 +5621,83 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_npd_attr_2 = data_npd_attr_2;
 	}
 
-	public long getData_npd_attr_3() {
+	public java.lang.Long getData_npd_attr_3() {
 		return this.data_npd_attr_3;
 	}
 
-	public void setData_npd_attr_3(long data_npd_attr_3) {
+	public void setData_npd_attr_3(java.lang.Long data_npd_attr_3) {
 		this.data_npd_attr_3 = data_npd_attr_3;
 	}
 
-	public long getData_npd_attr_4() {
+	public java.lang.Long getData_npd_attr_4() {
 		return this.data_npd_attr_4;
 	}
 
-	public void setData_npd_attr_4(long data_npd_attr_4) {
+	public void setData_npd_attr_4(java.lang.Long data_npd_attr_4) {
 		this.data_npd_attr_4 = data_npd_attr_4;
 	}
 
-	public long getData_npd_attr_5() {
+	public java.lang.Long getData_npd_attr_5() {
 		return this.data_npd_attr_5;
 	}
 
-	public void setData_npd_attr_5(long data_npd_attr_5) {
+	public void setData_npd_attr_5(java.lang.Long data_npd_attr_5) {
 		this.data_npd_attr_5 = data_npd_attr_5;
 	}
 
-	public long getData_npd_attr_6() {
+	public java.lang.Long getData_npd_attr_6() {
 		return this.data_npd_attr_6;
 	}
 
-	public void setData_npd_attr_6(long data_npd_attr_6) {
+	public void setData_npd_attr_6(java.lang.Long data_npd_attr_6) {
 		this.data_npd_attr_6 = data_npd_attr_6;
 	}
 
-	public long getData_npd_attr_7() {
+	public java.lang.Long getData_npd_attr_7() {
 		return this.data_npd_attr_7;
 	}
 
-	public void setData_npd_attr_7(long data_npd_attr_7) {
+	public void setData_npd_attr_7(java.lang.Long data_npd_attr_7) {
 		this.data_npd_attr_7 = data_npd_attr_7;
 	}
 
-	public long getData_npd_attr_8() {
+	public java.lang.Long getData_npd_attr_8() {
 		return this.data_npd_attr_8;
 	}
 
-	public void setData_npd_attr_8(long data_npd_attr_8) {
+	public void setData_npd_attr_8(java.lang.Long data_npd_attr_8) {
 		this.data_npd_attr_8 = data_npd_attr_8;
 	}
 
-	public long getData_npd_attr_9() {
+	public java.lang.Long getData_npd_attr_9() {
 		return this.data_npd_attr_9;
 	}
 
-	public void setData_npd_attr_9(long data_npd_attr_9) {
+	public void setData_npd_attr_9(java.lang.Long data_npd_attr_9) {
 		this.data_npd_attr_9 = data_npd_attr_9;
 	}
 
-	public long getData_npd_attr_10() {
+	public java.lang.Long getData_npd_attr_10() {
 		return this.data_npd_attr_10;
 	}
 
-	public void setData_npd_attr_10(long data_npd_attr_10) {
+	public void setData_npd_attr_10(java.lang.Long data_npd_attr_10) {
 		this.data_npd_attr_10 = data_npd_attr_10;
 	}
 
-	public long getData_npd_attr_11() {
+	public java.lang.Long getData_npd_attr_11() {
 		return this.data_npd_attr_11;
 	}
 
-	public void setData_npd_attr_11(long data_npd_attr_11) {
+	public void setData_npd_attr_11(java.lang.Long data_npd_attr_11) {
 		this.data_npd_attr_11 = data_npd_attr_11;
 	}
 
-	public long getData_npd_attr_12() {
+	public java.lang.Long getData_npd_attr_12() {
 		return this.data_npd_attr_12;
 	}
 
-	public void setData_npd_attr_12(long data_npd_attr_12) {
+	public void setData_npd_attr_12(java.lang.Long data_npd_attr_12) {
 		this.data_npd_attr_12 = data_npd_attr_12;
 	}
 
@@ -5709,507 +5709,507 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_npd_attr_13 = data_npd_attr_13;
 	}
 
-	public long getData_npd_attr_14() {
+	public java.lang.Long getData_npd_attr_14() {
 		return this.data_npd_attr_14;
 	}
 
-	public void setData_npd_attr_14(long data_npd_attr_14) {
+	public void setData_npd_attr_14(java.lang.Long data_npd_attr_14) {
 		this.data_npd_attr_14 = data_npd_attr_14;
 	}
 
-	public long getData_npd_attr_15() {
+	public java.lang.Long getData_npd_attr_15() {
 		return this.data_npd_attr_15;
 	}
 
-	public void setData_npd_attr_15(long data_npd_attr_15) {
+	public void setData_npd_attr_15(java.lang.Long data_npd_attr_15) {
 		this.data_npd_attr_15 = data_npd_attr_15;
 	}
 
-	public long getData_npd_attr_16() {
+	public java.lang.Long getData_npd_attr_16() {
 		return this.data_npd_attr_16;
 	}
 
-	public void setData_npd_attr_16(long data_npd_attr_16) {
+	public void setData_npd_attr_16(java.lang.Long data_npd_attr_16) {
 		this.data_npd_attr_16 = data_npd_attr_16;
 	}
 
-	public long getData_npd_attr_17() {
+	public java.lang.Long getData_npd_attr_17() {
 		return this.data_npd_attr_17;
 	}
 
-	public void setData_npd_attr_17(long data_npd_attr_17) {
+	public void setData_npd_attr_17(java.lang.Long data_npd_attr_17) {
 		this.data_npd_attr_17 = data_npd_attr_17;
 	}
 
-	public long getData_npd_attr_18() {
+	public java.lang.Long getData_npd_attr_18() {
 		return this.data_npd_attr_18;
 	}
 
-	public void setData_npd_attr_18(long data_npd_attr_18) {
+	public void setData_npd_attr_18(java.lang.Long data_npd_attr_18) {
 		this.data_npd_attr_18 = data_npd_attr_18;
 	}
 
-	public long getData_npd_attr_19() {
+	public java.lang.Long getData_npd_attr_19() {
 		return this.data_npd_attr_19;
 	}
 
-	public void setData_npd_attr_19(long data_npd_attr_19) {
+	public void setData_npd_attr_19(java.lang.Long data_npd_attr_19) {
 		this.data_npd_attr_19 = data_npd_attr_19;
 	}
 
-	public long getData_npd_attr_20() {
+	public java.lang.Long getData_npd_attr_20() {
 		return this.data_npd_attr_20;
 	}
 
-	public void setData_npd_attr_20(long data_npd_attr_20) {
+	public void setData_npd_attr_20(java.lang.Long data_npd_attr_20) {
 		this.data_npd_attr_20 = data_npd_attr_20;
 	}
 
-	public long getData_npd_attr_21() {
+	public java.lang.Long getData_npd_attr_21() {
 		return this.data_npd_attr_21;
 	}
 
-	public void setData_npd_attr_21(long data_npd_attr_21) {
+	public void setData_npd_attr_21(java.lang.Long data_npd_attr_21) {
 		this.data_npd_attr_21 = data_npd_attr_21;
 	}
 
-	public long getData_npd_attr_22() {
+	public java.lang.Long getData_npd_attr_22() {
 		return this.data_npd_attr_22;
 	}
 
-	public void setData_npd_attr_22(long data_npd_attr_22) {
+	public void setData_npd_attr_22(java.lang.Long data_npd_attr_22) {
 		this.data_npd_attr_22 = data_npd_attr_22;
 	}
 
-	public long getData_npd_attr_23() {
+	public java.lang.Long getData_npd_attr_23() {
 		return this.data_npd_attr_23;
 	}
 
-	public void setData_npd_attr_23(long data_npd_attr_23) {
+	public void setData_npd_attr_23(java.lang.Long data_npd_attr_23) {
 		this.data_npd_attr_23 = data_npd_attr_23;
 	}
 
-	public long getData_npd_attr_24() {
+	public java.lang.Long getData_npd_attr_24() {
 		return this.data_npd_attr_24;
 	}
 
-	public void setData_npd_attr_24(long data_npd_attr_24) {
+	public void setData_npd_attr_24(java.lang.Long data_npd_attr_24) {
 		this.data_npd_attr_24 = data_npd_attr_24;
 	}
 
-	public long getData_npd_attr_25() {
+	public java.lang.Long getData_npd_attr_25() {
 		return this.data_npd_attr_25;
 	}
 
-	public void setData_npd_attr_25(long data_npd_attr_25) {
+	public void setData_npd_attr_25(java.lang.Long data_npd_attr_25) {
 		this.data_npd_attr_25 = data_npd_attr_25;
 	}
 
-	public long getData_npd_attr_26() {
+	public java.lang.Long getData_npd_attr_26() {
 		return this.data_npd_attr_26;
 	}
 
-	public void setData_npd_attr_26(long data_npd_attr_26) {
+	public void setData_npd_attr_26(java.lang.Long data_npd_attr_26) {
 		this.data_npd_attr_26 = data_npd_attr_26;
 	}
 
-	public long getData_npd_attr_27() {
+	public java.lang.Long getData_npd_attr_27() {
 		return this.data_npd_attr_27;
 	}
 
-	public void setData_npd_attr_27(long data_npd_attr_27) {
+	public void setData_npd_attr_27(java.lang.Long data_npd_attr_27) {
 		this.data_npd_attr_27 = data_npd_attr_27;
 	}
 
-	public long getData_npd_attr_28() {
+	public java.lang.Long getData_npd_attr_28() {
 		return this.data_npd_attr_28;
 	}
 
-	public void setData_npd_attr_28(long data_npd_attr_28) {
+	public void setData_npd_attr_28(java.lang.Long data_npd_attr_28) {
 		this.data_npd_attr_28 = data_npd_attr_28;
 	}
 
-	public long getData_npd_attr_29() {
+	public java.lang.Long getData_npd_attr_29() {
 		return this.data_npd_attr_29;
 	}
 
-	public void setData_npd_attr_29(long data_npd_attr_29) {
+	public void setData_npd_attr_29(java.lang.Long data_npd_attr_29) {
 		this.data_npd_attr_29 = data_npd_attr_29;
 	}
 
-	public long getData_npd_attr_30() {
+	public java.lang.Long getData_npd_attr_30() {
 		return this.data_npd_attr_30;
 	}
 
-	public void setData_npd_attr_30(long data_npd_attr_30) {
+	public void setData_npd_attr_30(java.lang.Long data_npd_attr_30) {
 		this.data_npd_attr_30 = data_npd_attr_30;
 	}
 
-	public long getData_npd_attr_31() {
+	public java.lang.Long getData_npd_attr_31() {
 		return this.data_npd_attr_31;
 	}
 
-	public void setData_npd_attr_31(long data_npd_attr_31) {
+	public void setData_npd_attr_31(java.lang.Long data_npd_attr_31) {
 		this.data_npd_attr_31 = data_npd_attr_31;
 	}
 
-	public long getData_npd_attr_32() {
+	public java.lang.Long getData_npd_attr_32() {
 		return this.data_npd_attr_32;
 	}
 
-	public void setData_npd_attr_32(long data_npd_attr_32) {
+	public void setData_npd_attr_32(java.lang.Long data_npd_attr_32) {
 		this.data_npd_attr_32 = data_npd_attr_32;
 	}
 
-	public long getData_npd_attr_33() {
+	public java.lang.Long getData_npd_attr_33() {
 		return this.data_npd_attr_33;
 	}
 
-	public void setData_npd_attr_33(long data_npd_attr_33) {
+	public void setData_npd_attr_33(java.lang.Long data_npd_attr_33) {
 		this.data_npd_attr_33 = data_npd_attr_33;
 	}
 
-	public long getData_npd_attr_34() {
+	public java.lang.Long getData_npd_attr_34() {
 		return this.data_npd_attr_34;
 	}
 
-	public void setData_npd_attr_34(long data_npd_attr_34) {
+	public void setData_npd_attr_34(java.lang.Long data_npd_attr_34) {
 		this.data_npd_attr_34 = data_npd_attr_34;
 	}
 
-	public long getData_npd_attr_35() {
+	public java.lang.Long getData_npd_attr_35() {
 		return this.data_npd_attr_35;
 	}
 
-	public void setData_npd_attr_35(long data_npd_attr_35) {
+	public void setData_npd_attr_35(java.lang.Long data_npd_attr_35) {
 		this.data_npd_attr_35 = data_npd_attr_35;
 	}
 
-	public long getData_npd_attr_36() {
+	public java.lang.Long getData_npd_attr_36() {
 		return this.data_npd_attr_36;
 	}
 
-	public void setData_npd_attr_36(long data_npd_attr_36) {
+	public void setData_npd_attr_36(java.lang.Long data_npd_attr_36) {
 		this.data_npd_attr_36 = data_npd_attr_36;
 	}
 
-	public long getData_npd_attr_37() {
+	public java.lang.Long getData_npd_attr_37() {
 		return this.data_npd_attr_37;
 	}
 
-	public void setData_npd_attr_37(long data_npd_attr_37) {
+	public void setData_npd_attr_37(java.lang.Long data_npd_attr_37) {
 		this.data_npd_attr_37 = data_npd_attr_37;
 	}
 
-	public long getData_npd_attr_38() {
+	public java.lang.Long getData_npd_attr_38() {
 		return this.data_npd_attr_38;
 	}
 
-	public void setData_npd_attr_38(long data_npd_attr_38) {
+	public void setData_npd_attr_38(java.lang.Long data_npd_attr_38) {
 		this.data_npd_attr_38 = data_npd_attr_38;
 	}
 
-	public long getData_npd_attr_39() {
+	public java.lang.Long getData_npd_attr_39() {
 		return this.data_npd_attr_39;
 	}
 
-	public void setData_npd_attr_39(long data_npd_attr_39) {
+	public void setData_npd_attr_39(java.lang.Long data_npd_attr_39) {
 		this.data_npd_attr_39 = data_npd_attr_39;
 	}
 
-	public long getData_npd_attr_40() {
+	public java.lang.Long getData_npd_attr_40() {
 		return this.data_npd_attr_40;
 	}
 
-	public void setData_npd_attr_40(long data_npd_attr_40) {
+	public void setData_npd_attr_40(java.lang.Long data_npd_attr_40) {
 		this.data_npd_attr_40 = data_npd_attr_40;
 	}
 
-	public double getData_npd_attr_41() {
+	public java.lang.Double getData_npd_attr_41() {
 		return this.data_npd_attr_41;
 	}
 
-	public void setData_npd_attr_41(double data_npd_attr_41) {
+	public void setData_npd_attr_41(java.lang.Double data_npd_attr_41) {
 		this.data_npd_attr_41 = data_npd_attr_41;
 	}
 
-	public long getData_npd_attr_42() {
+	public java.lang.Long getData_npd_attr_42() {
 		return this.data_npd_attr_42;
 	}
 
-	public void setData_npd_attr_42(long data_npd_attr_42) {
+	public void setData_npd_attr_42(java.lang.Long data_npd_attr_42) {
 		this.data_npd_attr_42 = data_npd_attr_42;
 	}
 
-	public long getData_npd_attr_43() {
+	public java.lang.Long getData_npd_attr_43() {
 		return this.data_npd_attr_43;
 	}
 
-	public void setData_npd_attr_43(long data_npd_attr_43) {
+	public void setData_npd_attr_43(java.lang.Long data_npd_attr_43) {
 		this.data_npd_attr_43 = data_npd_attr_43;
 	}
 
-	public long getData_npd_attr_44() {
+	public java.lang.Long getData_npd_attr_44() {
 		return this.data_npd_attr_44;
 	}
 
-	public void setData_npd_attr_44(long data_npd_attr_44) {
+	public void setData_npd_attr_44(java.lang.Long data_npd_attr_44) {
 		this.data_npd_attr_44 = data_npd_attr_44;
 	}
 
-	public long getData_npd_attr_45() {
+	public java.lang.Long getData_npd_attr_45() {
 		return this.data_npd_attr_45;
 	}
 
-	public void setData_npd_attr_45(long data_npd_attr_45) {
+	public void setData_npd_attr_45(java.lang.Long data_npd_attr_45) {
 		this.data_npd_attr_45 = data_npd_attr_45;
 	}
 
-	public long getData_npd_attr_46() {
+	public java.lang.Long getData_npd_attr_46() {
 		return this.data_npd_attr_46;
 	}
 
-	public void setData_npd_attr_46(long data_npd_attr_46) {
+	public void setData_npd_attr_46(java.lang.Long data_npd_attr_46) {
 		this.data_npd_attr_46 = data_npd_attr_46;
 	}
 
-	public long getData_npd_attr_47() {
+	public java.lang.Long getData_npd_attr_47() {
 		return this.data_npd_attr_47;
 	}
 
-	public void setData_npd_attr_47(long data_npd_attr_47) {
+	public void setData_npd_attr_47(java.lang.Long data_npd_attr_47) {
 		this.data_npd_attr_47 = data_npd_attr_47;
 	}
 
-	public long getData_npd_attr_48() {
+	public java.lang.Long getData_npd_attr_48() {
 		return this.data_npd_attr_48;
 	}
 
-	public void setData_npd_attr_48(long data_npd_attr_48) {
+	public void setData_npd_attr_48(java.lang.Long data_npd_attr_48) {
 		this.data_npd_attr_48 = data_npd_attr_48;
 	}
 
-	public long getData_npd_attr_49() {
+	public java.lang.Long getData_npd_attr_49() {
 		return this.data_npd_attr_49;
 	}
 
-	public void setData_npd_attr_49(long data_npd_attr_49) {
+	public void setData_npd_attr_49(java.lang.Long data_npd_attr_49) {
 		this.data_npd_attr_49 = data_npd_attr_49;
 	}
 
-	public long getData_npd_attr_50() {
+	public java.lang.Long getData_npd_attr_50() {
 		return this.data_npd_attr_50;
 	}
 
-	public void setData_npd_attr_50(long data_npd_attr_50) {
+	public void setData_npd_attr_50(java.lang.Long data_npd_attr_50) {
 		this.data_npd_attr_50 = data_npd_attr_50;
 	}
 
-	public long getData_npd_attr_51() {
+	public java.lang.Long getData_npd_attr_51() {
 		return this.data_npd_attr_51;
 	}
 
-	public void setData_npd_attr_51(long data_npd_attr_51) {
+	public void setData_npd_attr_51(java.lang.Long data_npd_attr_51) {
 		this.data_npd_attr_51 = data_npd_attr_51;
 	}
 
-	public long getData_npd_attr_52() {
+	public java.lang.Long getData_npd_attr_52() {
 		return this.data_npd_attr_52;
 	}
 
-	public void setData_npd_attr_52(long data_npd_attr_52) {
+	public void setData_npd_attr_52(java.lang.Long data_npd_attr_52) {
 		this.data_npd_attr_52 = data_npd_attr_52;
 	}
 
-	public long getData_npd_attr_53() {
+	public java.lang.Long getData_npd_attr_53() {
 		return this.data_npd_attr_53;
 	}
 
-	public void setData_npd_attr_53(long data_npd_attr_53) {
+	public void setData_npd_attr_53(java.lang.Long data_npd_attr_53) {
 		this.data_npd_attr_53 = data_npd_attr_53;
 	}
 
-	public long getData_npd_attr_54() {
+	public java.lang.Long getData_npd_attr_54() {
 		return this.data_npd_attr_54;
 	}
 
-	public void setData_npd_attr_54(long data_npd_attr_54) {
+	public void setData_npd_attr_54(java.lang.Long data_npd_attr_54) {
 		this.data_npd_attr_54 = data_npd_attr_54;
 	}
 
-	public long getData_npd_attr_55() {
+	public java.lang.Long getData_npd_attr_55() {
 		return this.data_npd_attr_55;
 	}
 
-	public void setData_npd_attr_55(long data_npd_attr_55) {
+	public void setData_npd_attr_55(java.lang.Long data_npd_attr_55) {
 		this.data_npd_attr_55 = data_npd_attr_55;
 	}
 
-	public long getData_npd_attr_56() {
+	public java.lang.Long getData_npd_attr_56() {
 		return this.data_npd_attr_56;
 	}
 
-	public void setData_npd_attr_56(long data_npd_attr_56) {
+	public void setData_npd_attr_56(java.lang.Long data_npd_attr_56) {
 		this.data_npd_attr_56 = data_npd_attr_56;
 	}
 
-	public long getData_npd_attr_57() {
+	public java.lang.Long getData_npd_attr_57() {
 		return this.data_npd_attr_57;
 	}
 
-	public void setData_npd_attr_57(long data_npd_attr_57) {
+	public void setData_npd_attr_57(java.lang.Long data_npd_attr_57) {
 		this.data_npd_attr_57 = data_npd_attr_57;
 	}
 
-	public long getData_npd_attr_58() {
+	public java.lang.Long getData_npd_attr_58() {
 		return this.data_npd_attr_58;
 	}
 
-	public void setData_npd_attr_58(long data_npd_attr_58) {
+	public void setData_npd_attr_58(java.lang.Long data_npd_attr_58) {
 		this.data_npd_attr_58 = data_npd_attr_58;
 	}
 
-	public long getData_npd_attr_59() {
+	public java.lang.Long getData_npd_attr_59() {
 		return this.data_npd_attr_59;
 	}
 
-	public void setData_npd_attr_59(long data_npd_attr_59) {
+	public void setData_npd_attr_59(java.lang.Long data_npd_attr_59) {
 		this.data_npd_attr_59 = data_npd_attr_59;
 	}
 
-	public long getData_npd_attr_60() {
+	public java.lang.Long getData_npd_attr_60() {
 		return this.data_npd_attr_60;
 	}
 
-	public void setData_npd_attr_60(long data_npd_attr_60) {
+	public void setData_npd_attr_60(java.lang.Long data_npd_attr_60) {
 		this.data_npd_attr_60 = data_npd_attr_60;
 	}
 
-	public long getData_npd_attr_61() {
+	public java.lang.Long getData_npd_attr_61() {
 		return this.data_npd_attr_61;
 	}
 
-	public void setData_npd_attr_61(long data_npd_attr_61) {
+	public void setData_npd_attr_61(java.lang.Long data_npd_attr_61) {
 		this.data_npd_attr_61 = data_npd_attr_61;
 	}
 
-	public long getData_npd_attr_62() {
+	public java.lang.Long getData_npd_attr_62() {
 		return this.data_npd_attr_62;
 	}
 
-	public void setData_npd_attr_62(long data_npd_attr_62) {
+	public void setData_npd_attr_62(java.lang.Long data_npd_attr_62) {
 		this.data_npd_attr_62 = data_npd_attr_62;
 	}
 
-	public double getData_npd_attr_63() {
+	public java.lang.Double getData_npd_attr_63() {
 		return this.data_npd_attr_63;
 	}
 
-	public void setData_npd_attr_63(double data_npd_attr_63) {
+	public void setData_npd_attr_63(java.lang.Double data_npd_attr_63) {
 		this.data_npd_attr_63 = data_npd_attr_63;
 	}
 
-	public double getData_npd_attr_64() {
+	public java.lang.Double getData_npd_attr_64() {
 		return this.data_npd_attr_64;
 	}
 
-	public void setData_npd_attr_64(double data_npd_attr_64) {
+	public void setData_npd_attr_64(java.lang.Double data_npd_attr_64) {
 		this.data_npd_attr_64 = data_npd_attr_64;
 	}
 
-	public long getData_npd_attr_65() {
+	public java.lang.Long getData_npd_attr_65() {
 		return this.data_npd_attr_65;
 	}
 
-	public void setData_npd_attr_65(long data_npd_attr_65) {
+	public void setData_npd_attr_65(java.lang.Long data_npd_attr_65) {
 		this.data_npd_attr_65 = data_npd_attr_65;
 	}
 
-	public long getData_npd_attr_66() {
+	public java.lang.Long getData_npd_attr_66() {
 		return this.data_npd_attr_66;
 	}
 
-	public void setData_npd_attr_66(long data_npd_attr_66) {
+	public void setData_npd_attr_66(java.lang.Long data_npd_attr_66) {
 		this.data_npd_attr_66 = data_npd_attr_66;
 	}
 
-	public long getData_npd_attr_67() {
+	public java.lang.Long getData_npd_attr_67() {
 		return this.data_npd_attr_67;
 	}
 
-	public void setData_npd_attr_67(long data_npd_attr_67) {
+	public void setData_npd_attr_67(java.lang.Long data_npd_attr_67) {
 		this.data_npd_attr_67 = data_npd_attr_67;
 	}
 
-	public long getData_npd_attr_68() {
+	public java.lang.Long getData_npd_attr_68() {
 		return this.data_npd_attr_68;
 	}
 
-	public void setData_npd_attr_68(long data_npd_attr_68) {
+	public void setData_npd_attr_68(java.lang.Long data_npd_attr_68) {
 		this.data_npd_attr_68 = data_npd_attr_68;
 	}
 
-	public long getData_npd_attr_69() {
+	public java.lang.Long getData_npd_attr_69() {
 		return this.data_npd_attr_69;
 	}
 
-	public void setData_npd_attr_69(long data_npd_attr_69) {
+	public void setData_npd_attr_69(java.lang.Long data_npd_attr_69) {
 		this.data_npd_attr_69 = data_npd_attr_69;
 	}
 
-	public long getData_npd_attr_70() {
+	public java.lang.Long getData_npd_attr_70() {
 		return this.data_npd_attr_70;
 	}
 
-	public void setData_npd_attr_70(long data_npd_attr_70) {
+	public void setData_npd_attr_70(java.lang.Long data_npd_attr_70) {
 		this.data_npd_attr_70 = data_npd_attr_70;
 	}
 
-	public long getData_npd_attr_71() {
+	public java.lang.Long getData_npd_attr_71() {
 		return this.data_npd_attr_71;
 	}
 
-	public void setData_npd_attr_71(long data_npd_attr_71) {
+	public void setData_npd_attr_71(java.lang.Long data_npd_attr_71) {
 		this.data_npd_attr_71 = data_npd_attr_71;
 	}
 
-	public long getData_npd_attr_72() {
+	public java.lang.Long getData_npd_attr_72() {
 		return this.data_npd_attr_72;
 	}
 
-	public void setData_npd_attr_72(long data_npd_attr_72) {
+	public void setData_npd_attr_72(java.lang.Long data_npd_attr_72) {
 		this.data_npd_attr_72 = data_npd_attr_72;
 	}
 
-	public long getData_npd_attr_73() {
+	public java.lang.Long getData_npd_attr_73() {
 		return this.data_npd_attr_73;
 	}
 
-	public void setData_npd_attr_73(long data_npd_attr_73) {
+	public void setData_npd_attr_73(java.lang.Long data_npd_attr_73) {
 		this.data_npd_attr_73 = data_npd_attr_73;
 	}
 
-	public long getData_npd_attr_74() {
+	public java.lang.Long getData_npd_attr_74() {
 		return this.data_npd_attr_74;
 	}
 
-	public void setData_npd_attr_74(long data_npd_attr_74) {
+	public void setData_npd_attr_74(java.lang.Long data_npd_attr_74) {
 		this.data_npd_attr_74 = data_npd_attr_74;
 	}
 
-	public double getData_npd_attr_75() {
+	public java.lang.Double getData_npd_attr_75() {
 		return this.data_npd_attr_75;
 	}
 
-	public void setData_npd_attr_75(double data_npd_attr_75) {
+	public void setData_npd_attr_75(java.lang.Double data_npd_attr_75) {
 		this.data_npd_attr_75 = data_npd_attr_75;
 	}
 
-	public long getData_npd_attr_76() {
+	public java.lang.Long getData_npd_attr_76() {
 		return this.data_npd_attr_76;
 	}
 
-	public void setData_npd_attr_76(long data_npd_attr_76) {
+	public void setData_npd_attr_76(java.lang.Long data_npd_attr_76) {
 		this.data_npd_attr_76 = data_npd_attr_76;
 	}
 
@@ -6221,323 +6221,323 @@ private java.lang.String panelist_panelist_attr_100;
 		this.data_npd_attr_77 = data_npd_attr_77;
 	}
 
-	public long getData_npd_attr_78() {
+	public java.lang.Long getData_npd_attr_78() {
 		return this.data_npd_attr_78;
 	}
 
-	public void setData_npd_attr_78(long data_npd_attr_78) {
+	public void setData_npd_attr_78(java.lang.Long data_npd_attr_78) {
 		this.data_npd_attr_78 = data_npd_attr_78;
 	}
 
-	public long getData_npd_attr_79() {
+	public java.lang.Long getData_npd_attr_79() {
 		return this.data_npd_attr_79;
 	}
 
-	public void setData_npd_attr_79(long data_npd_attr_79) {
+	public void setData_npd_attr_79(java.lang.Long data_npd_attr_79) {
 		this.data_npd_attr_79 = data_npd_attr_79;
 	}
 
-	public long getData_npd_attr_80() {
+	public java.lang.Long getData_npd_attr_80() {
 		return this.data_npd_attr_80;
 	}
 
-	public void setData_npd_attr_80(long data_npd_attr_80) {
+	public void setData_npd_attr_80(java.lang.Long data_npd_attr_80) {
 		this.data_npd_attr_80 = data_npd_attr_80;
 	}
 
-	public long getData_npd_attr_81() {
+	public java.lang.Long getData_npd_attr_81() {
 		return this.data_npd_attr_81;
 	}
 
-	public void setData_npd_attr_81(long data_npd_attr_81) {
+	public void setData_npd_attr_81(java.lang.Long data_npd_attr_81) {
 		this.data_npd_attr_81 = data_npd_attr_81;
 	}
 
-	public long getData_npd_attr_82() {
+	public java.lang.Long getData_npd_attr_82() {
 		return this.data_npd_attr_82;
 	}
 
-	public void setData_npd_attr_82(long data_npd_attr_82) {
+	public void setData_npd_attr_82(java.lang.Long data_npd_attr_82) {
 		this.data_npd_attr_82 = data_npd_attr_82;
 	}
 
-	public long getData_npd_attr_83() {
+	public java.lang.Long getData_npd_attr_83() {
 		return this.data_npd_attr_83;
 	}
 
-	public void setData_npd_attr_83(long data_npd_attr_83) {
+	public void setData_npd_attr_83(java.lang.Long data_npd_attr_83) {
 		this.data_npd_attr_83 = data_npd_attr_83;
 	}
 
-	public java.lang.String getData_npd_attr_84() {
+	public java.lang.Long getData_npd_attr_84() {
 		return this.data_npd_attr_84;
 	}
 
-	public void setData_npd_attr_84(java.lang.String data_npd_attr_84) {
+	public void setData_npd_attr_84(java.lang.Long data_npd_attr_84) {
 		this.data_npd_attr_84 = data_npd_attr_84;
 	}
 
-	public long getData_npd_attr_85() {
+	public java.lang.Long getData_npd_attr_85() {
 		return this.data_npd_attr_85;
 	}
 
-	public void setData_npd_attr_85(long data_npd_attr_85) {
+	public void setData_npd_attr_85(java.lang.Long data_npd_attr_85) {
 		this.data_npd_attr_85 = data_npd_attr_85;
 	}
 
-	public long getData_npd_attr_86() {
+	public java.lang.Long getData_npd_attr_86() {
 		return this.data_npd_attr_86;
 	}
 
-	public void setData_npd_attr_86(long data_npd_attr_86) {
+	public void setData_npd_attr_86(java.lang.Long data_npd_attr_86) {
 		this.data_npd_attr_86 = data_npd_attr_86;
 	}
 
-	public long getData_npd_attr_87() {
+	public java.lang.Long getData_npd_attr_87() {
 		return this.data_npd_attr_87;
 	}
 
-	public void setData_npd_attr_87(long data_npd_attr_87) {
+	public void setData_npd_attr_87(java.lang.Long data_npd_attr_87) {
 		this.data_npd_attr_87 = data_npd_attr_87;
 	}
 
-	public long getData_npd_attr_88() {
+	public java.lang.Long getData_npd_attr_88() {
 		return this.data_npd_attr_88;
 	}
 
-	public void setData_npd_attr_88(long data_npd_attr_88) {
+	public void setData_npd_attr_88(java.lang.Long data_npd_attr_88) {
 		this.data_npd_attr_88 = data_npd_attr_88;
 	}
 
-	public long getData_npd_attr_89() {
+	public java.lang.Long getData_npd_attr_89() {
 		return this.data_npd_attr_89;
 	}
 
-	public void setData_npd_attr_89(long data_npd_attr_89) {
+	public void setData_npd_attr_89(java.lang.Long data_npd_attr_89) {
 		this.data_npd_attr_89 = data_npd_attr_89;
 	}
 
-	public long getData_npd_attr_90() {
+	public java.lang.Long getData_npd_attr_90() {
 		return this.data_npd_attr_90;
 	}
 
-	public void setData_npd_attr_90(long data_npd_attr_90) {
+	public void setData_npd_attr_90(java.lang.Long data_npd_attr_90) {
 		this.data_npd_attr_90 = data_npd_attr_90;
 	}
 
-	public long getData_npd_attr_91() {
+	public java.lang.Long getData_npd_attr_91() {
 		return this.data_npd_attr_91;
 	}
 
-	public void setData_npd_attr_91(long data_npd_attr_91) {
+	public void setData_npd_attr_91(java.lang.Long data_npd_attr_91) {
 		this.data_npd_attr_91 = data_npd_attr_91;
 	}
 
-	public long getData_npd_attr_92() {
+	public java.lang.Long getData_npd_attr_92() {
 		return this.data_npd_attr_92;
 	}
 
-	public void setData_npd_attr_92(long data_npd_attr_92) {
+	public void setData_npd_attr_92(java.lang.Long data_npd_attr_92) {
 		this.data_npd_attr_92 = data_npd_attr_92;
 	}
 
-	public double getData_npd_attr_93() {
+	public java.lang.Double getData_npd_attr_93() {
 		return this.data_npd_attr_93;
 	}
 
-	public void setData_npd_attr_93(double data_npd_attr_93) {
+	public void setData_npd_attr_93(java.lang.Double data_npd_attr_93) {
 		this.data_npd_attr_93 = data_npd_attr_93;
 	}
 
-	public double getData_npd_attr_94() {
+	public java.lang.Double getData_npd_attr_94() {
 		return this.data_npd_attr_94;
 	}
 
-	public void setData_npd_attr_94(double data_npd_attr_94) {
+	public void setData_npd_attr_94(java.lang.Double data_npd_attr_94) {
 		this.data_npd_attr_94 = data_npd_attr_94;
 	}
 
-	public long getData_npd_attr_95() {
+	public java.lang.Long getData_npd_attr_95() {
 		return this.data_npd_attr_95;
 	}
 
-	public void setData_npd_attr_95(long data_npd_attr_95) {
+	public void setData_npd_attr_95(java.lang.Long data_npd_attr_95) {
 		this.data_npd_attr_95 = data_npd_attr_95;
 	}
 
-	public long getData_npd_attr_96() {
+	public java.lang.Long getData_npd_attr_96() {
 		return this.data_npd_attr_96;
 	}
 
-	public void setData_npd_attr_96(long data_npd_attr_96) {
+	public void setData_npd_attr_96(java.lang.Long data_npd_attr_96) {
 		this.data_npd_attr_96 = data_npd_attr_96;
 	}
 
-	public long getData_npd_attr_97() {
+	public java.lang.Long getData_npd_attr_97() {
 		return this.data_npd_attr_97;
 	}
 
-	public void setData_npd_attr_97(long data_npd_attr_97) {
+	public void setData_npd_attr_97(java.lang.Long data_npd_attr_97) {
 		this.data_npd_attr_97 = data_npd_attr_97;
 	}
 
-	public long getData_npd_attr_98() {
+	public java.lang.Long getData_npd_attr_98() {
 		return this.data_npd_attr_98;
 	}
 
-	public void setData_npd_attr_98(long data_npd_attr_98) {
+	public void setData_npd_attr_98(java.lang.Long data_npd_attr_98) {
 		this.data_npd_attr_98 = data_npd_attr_98;
 	}
 
-	public long getData_npd_attr_99() {
+	public java.lang.Long getData_npd_attr_99() {
 		return this.data_npd_attr_99;
 	}
 
-	public void setData_npd_attr_99(long data_npd_attr_99) {
+	public void setData_npd_attr_99(java.lang.Long data_npd_attr_99) {
 		this.data_npd_attr_99 = data_npd_attr_99;
 	}
 
-	public long getData_npd_attr_100() {
+	public java.lang.Long getData_npd_attr_100() {
 		return this.data_npd_attr_100;
 	}
 
-	public void setData_npd_attr_100(long data_npd_attr_100) {
+	public void setData_npd_attr_100(java.lang.Long data_npd_attr_100) {
 		this.data_npd_attr_100 = data_npd_attr_100;
 	}
 
-	public long getData_npd_attr_101() {
+	public java.lang.Long getData_npd_attr_101() {
 		return this.data_npd_attr_101;
 	}
 
-	public void setData_npd_attr_101(long data_npd_attr_101) {
+	public void setData_npd_attr_101(java.lang.Long data_npd_attr_101) {
 		this.data_npd_attr_101 = data_npd_attr_101;
 	}
 
-	public long getData_npd_attr_102() {
+	public java.lang.Long getData_npd_attr_102() {
 		return this.data_npd_attr_102;
 	}
 
-	public void setData_npd_attr_102(long data_npd_attr_102) {
+	public void setData_npd_attr_102(java.lang.Long data_npd_attr_102) {
 		this.data_npd_attr_102 = data_npd_attr_102;
 	}
 
-	public long getData_npd_attr_103() {
+	public java.lang.Long getData_npd_attr_103() {
 		return this.data_npd_attr_103;
 	}
 
-	public void setData_npd_attr_103(long data_npd_attr_103) {
+	public void setData_npd_attr_103(java.lang.Long data_npd_attr_103) {
 		this.data_npd_attr_103 = data_npd_attr_103;
 	}
 
-	public long getData_npd_attr_104() {
+	public java.lang.Long getData_npd_attr_104() {
 		return this.data_npd_attr_104;
 	}
 
-	public void setData_npd_attr_104(long data_npd_attr_104) {
+	public void setData_npd_attr_104(java.lang.Long data_npd_attr_104) {
 		this.data_npd_attr_104 = data_npd_attr_104;
 	}
 
-	public long getData_npd_attr_105() {
+	public java.lang.Long getData_npd_attr_105() {
 		return this.data_npd_attr_105;
 	}
 
-	public void setData_npd_attr_105(long data_npd_attr_105) {
+	public void setData_npd_attr_105(java.lang.Long data_npd_attr_105) {
 		this.data_npd_attr_105 = data_npd_attr_105;
 	}
 
-	public long getData_npd_attr_106() {
+	public java.lang.Long getData_npd_attr_106() {
 		return this.data_npd_attr_106;
 	}
 
-	public void setData_npd_attr_106(long data_npd_attr_106) {
+	public void setData_npd_attr_106(java.lang.Long data_npd_attr_106) {
 		this.data_npd_attr_106 = data_npd_attr_106;
 	}
 
-	public long getData_npd_attr_107() {
+	public java.lang.Long getData_npd_attr_107() {
 		return this.data_npd_attr_107;
 	}
 
-	public void setData_npd_attr_107(long data_npd_attr_107) {
+	public void setData_npd_attr_107(java.lang.Long data_npd_attr_107) {
 		this.data_npd_attr_107 = data_npd_attr_107;
 	}
 
-	public long getData_npd_attr_108() {
+	public java.lang.Long getData_npd_attr_108() {
 		return this.data_npd_attr_108;
 	}
 
-	public void setData_npd_attr_108(long data_npd_attr_108) {
+	public void setData_npd_attr_108(java.lang.Long data_npd_attr_108) {
 		this.data_npd_attr_108 = data_npd_attr_108;
 	}
 
-	public long getData_npd_attr_109() {
+	public java.lang.Long getData_npd_attr_109() {
 		return this.data_npd_attr_109;
 	}
 
-	public void setData_npd_attr_109(long data_npd_attr_109) {
+	public void setData_npd_attr_109(java.lang.Long data_npd_attr_109) {
 		this.data_npd_attr_109 = data_npd_attr_109;
 	}
 
-	public long getData_npd_attr_110() {
+	public java.lang.Long getData_npd_attr_110() {
 		return this.data_npd_attr_110;
 	}
 
-	public void setData_npd_attr_110(long data_npd_attr_110) {
+	public void setData_npd_attr_110(java.lang.Long data_npd_attr_110) {
 		this.data_npd_attr_110 = data_npd_attr_110;
 	}
 
-	public long getData_npd_attr_111() {
+	public java.lang.Long getData_npd_attr_111() {
 		return this.data_npd_attr_111;
 	}
 
-	public void setData_npd_attr_111(long data_npd_attr_111) {
+	public void setData_npd_attr_111(java.lang.Long data_npd_attr_111) {
 		this.data_npd_attr_111 = data_npd_attr_111;
 	}
 
-	public long getData_npd_attr_112() {
+	public java.lang.Long getData_npd_attr_112() {
 		return this.data_npd_attr_112;
 	}
 
-	public void setData_npd_attr_112(long data_npd_attr_112) {
+	public void setData_npd_attr_112(java.lang.Long data_npd_attr_112) {
 		this.data_npd_attr_112 = data_npd_attr_112;
 	}
 
-	public long getData_npd_attr_113() {
+	public java.lang.Long getData_npd_attr_113() {
 		return this.data_npd_attr_113;
 	}
 
-	public void setData_npd_attr_113(long data_npd_attr_113) {
+	public void setData_npd_attr_113(java.lang.Long data_npd_attr_113) {
 		this.data_npd_attr_113 = data_npd_attr_113;
 	}
 
-	public long getData_npd_attr_114() {
+	public java.lang.Long getData_npd_attr_114() {
 		return this.data_npd_attr_114;
 	}
 
-	public void setData_npd_attr_114(long data_npd_attr_114) {
+	public void setData_npd_attr_114(java.lang.Long data_npd_attr_114) {
 		this.data_npd_attr_114 = data_npd_attr_114;
 	}
 
-	public long getData_npd_attr_115() {
+	public java.lang.Long getData_npd_attr_115() {
 		return this.data_npd_attr_115;
 	}
 
-	public void setData_npd_attr_115(long data_npd_attr_115) {
+	public void setData_npd_attr_115(java.lang.Long data_npd_attr_115) {
 		this.data_npd_attr_115 = data_npd_attr_115;
 	}
 
-	public long getData_npd_attr_116() {
+	public java.lang.Long getData_npd_attr_116() {
 		return this.data_npd_attr_116;
 	}
 
-	public void setData_npd_attr_116(long data_npd_attr_116) {
+	public void setData_npd_attr_116(java.lang.Long data_npd_attr_116) {
 		this.data_npd_attr_116 = data_npd_attr_116;
 	}
 
-	public long getData_npd_attr_117() {
+	public java.lang.Long getData_npd_attr_117() {
 		return this.data_npd_attr_117;
 	}
 
-	public void setData_npd_attr_117(long data_npd_attr_117) {
+	public void setData_npd_attr_117(java.lang.Long data_npd_attr_117) {
 		this.data_npd_attr_117 = data_npd_attr_117;
 	}
 
@@ -7733,12 +7733,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_npd_attr_250 = data_npd_attr_250;
 	}
 
-	public long getData_measures_source__units()
+	public java.lang.Long getData_measures_source__units()
 	{
 		return this.data_measures_source__units;
 	}
 
-	public void setData_measures_source__units(long data_measures_source__units)
+	public void setData_measures_source__units(java.lang.Long data_measures_source__units)
 	{
 		 this.data_measures_source__units = data_measures_source__units;
 	}
@@ -7753,22 +7753,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_measures_source__sales = data_measures_source__sales;
 	}
 
-	public long getData_measures__units()
+	public java.lang.Long getData_measures__units()
 	{
 		return this.data_measures__units;
 	}
 
-	public void setData_measures__units(long data_measures__units)
+	public void setData_measures__units(java.lang.Long data_measures__units)
 	{
 		 this.data_measures__units = data_measures__units;
 	}
 
-	public long getData_measures__sales()
+	public java.lang.Long getData_measures__sales()
 	{
 		return this.data_measures__sales;
 	}
 
-	public void setData_measures__sales(long data_measures__sales)
+	public void setData_measures__sales(java.lang.Long data_measures__sales)
 	{
 		 this.data_measures__sales = data_measures__sales;
 	}
@@ -9023,22 +9023,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_npd_item__item_filler = data_npd_item__item_filler;
 	}
 
-	public int getData_status()
+	public java.lang.Integer getData_status()
 	{
 		return this.data_status;
 	}
 
-	public void setData_status(int data_status)
+	public void setData_status(java.lang.Integer data_status)
 	{
 		 this.data_status = data_status;
 	}
 
-	public long getData_counter_01()
+	public java.lang.Long getData_counter_01()
 	{
 		return this.data_counter_01;
 	}
 
-	public void setData_counter_01(long data_counter_01)
+	public void setData_counter_01(java.lang.Long data_counter_01)
 	{
 		 this.data_counter_01 = data_counter_01;
 	}
@@ -9133,22 +9133,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_time_dim__year = data_time_dim__year;
 	}
 
-	public long getData_category_dim__level_0()
+	public java.lang.Long getData_category_dim__level_0()
 	{
 		return this.data_category_dim__level_0;
 	}
 
-	public void setData_category_dim__level_0(long data_category_dim__level_0)
+	public void setData_category_dim__level_0(java.lang.Long data_category_dim__level_0)
 	{
 		 this.data_category_dim__level_0 = data_category_dim__level_0;
 	}
 
-	public long getData_category_dim__level_1()
+	public java.lang.Long getData_category_dim__level_1()
 	{
 		return this.data_category_dim__level_1;
 	}
 
-	public void setData_category_dim__level_1(long data_category_dim__level_1)
+	public void setData_category_dim__level_1(java.lang.Long data_category_dim__level_1)
 	{
 		 this.data_category_dim__level_1 = data_category_dim__level_1;
 	}
@@ -9343,12 +9343,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_channel_dim__level_0 = data_channel_dim__level_0;
 	}
 
-	public long getData_channel_dim__level_1()
+	public java.lang.Long getData_channel_dim__level_1()
 	{
 		return this.data_channel_dim__level_1;
 	}
 
-	public void setData_channel_dim__level_1(long data_channel_dim__level_1)
+	public void setData_channel_dim__level_1(java.lang.Long data_channel_dim__level_1)
 	{
 		 this.data_channel_dim__level_1 = data_channel_dim__level_1;
 	}
@@ -9453,92 +9453,92 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_outlet_family_dim__level_1 = data_outlet_family_dim__level_1;
 	}
 
-	public double getData_factor_values_0()
+	public java.lang.Double getData_factor_values_0()
 	{
 		return this.data_factor_values_0;
 	}
 
-	public void setData_factor_values_0(double data_factor_values_0)
+	public void setData_factor_values_0(java.lang.Double data_factor_values_0)
 	{
 		 this.data_factor_values_0 = data_factor_values_0;
 	}
 
-	public double getData_factor_values_1()
+	public java.lang.Double getData_factor_values_1()
 	{
 		return this.data_factor_values_1;
 	}
 
-	public void setData_factor_values_1(double data_factor_values_1)
+	public void setData_factor_values_1(java.lang.Double data_factor_values_1)
 	{
 		 this.data_factor_values_1 = data_factor_values_1;
 	}
 
-	public double getData_factor_values_2()
+	public java.lang.Double getData_factor_values_2()
 	{
 		return this.data_factor_values_2;
 	}
 
-	public void setData_factor_values_2(double data_factor_values_2)
+	public void setData_factor_values_2(java.lang.Double data_factor_values_2)
 	{
 		 this.data_factor_values_2 = data_factor_values_2;
 	}
 
-	public double getData_factor_values_3()
+	public java.lang.Double getData_factor_values_3()
 	{
 		return this.data_factor_values_3;
 	}
 
-	public void setData_factor_values_3(double data_factor_values_3)
+	public void setData_factor_values_3(java.lang.Double data_factor_values_3)
 	{
 		 this.data_factor_values_3 = data_factor_values_3;
 	}
 
-	public double getData_factor_values_4()
+	public java.lang.Double getData_factor_values_4()
 	{
 		return this.data_factor_values_4;
 	}
 
-	public void setData_factor_values_4(double data_factor_values_4)
+	public void setData_factor_values_4(java.lang.Double data_factor_values_4)
 	{
 		 this.data_factor_values_4 = data_factor_values_4;
 	}
 
-	public double getData_factor_values_5()
+	public java.lang.Double getData_factor_values_5()
 	{
 		return this.data_factor_values_5;
 	}
 
-	public void setData_factor_values_5(double data_factor_values_5)
+	public void setData_factor_values_5(java.lang.Double data_factor_values_5)
 	{
 		 this.data_factor_values_5 = data_factor_values_5;
 	}
 
-	public double getData_factor_values_6()
+	public java.lang.Double getData_factor_values_6()
 	{
 		return this.data_factor_values_6;
 	}
 
-	public void setData_factor_values_6(double data_factor_values_6)
+	public void setData_factor_values_6(java.lang.Double data_factor_values_6)
 	{
 		 this.data_factor_values_6 = data_factor_values_6;
 	}
 
-	public double getData_factor_values_7()
+	public java.lang.Double getData_factor_values_7()
 	{
 		return this.data_factor_values_7;
 	}
 
-	public void setData_factor_values_7(double data_factor_values_7)
+	public void setData_factor_values_7(java.lang.Double data_factor_values_7)
 	{
 		 this.data_factor_values_7 = data_factor_values_7;
 	}
 
-	public double getData_factor_values_8()
+	public java.lang.Double getData_factor_values_8()
 	{
 		return this.data_factor_values_8;
 	}
 
-	public void setData_factor_values_8(double data_factor_values_8)
+	public void setData_factor_values_8(java.lang.Double data_factor_values_8)
 	{
 		 this.data_factor_values_8 = data_factor_values_8;
 	}
@@ -9553,12 +9553,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.data_factor_values_9 = data_factor_values_9;
 	}
 
-	public double getData_factor_values_10()
+	public java.lang.Double getData_factor_values_10()
 	{
 		return this.data_factor_values_10;
 	}
 
-	public void setData_factor_values_10(double data_factor_values_10)
+	public void setData_factor_values_10(java.lang.Double data_factor_values_10)
 	{
 		 this.data_factor_values_10 = data_factor_values_10;
 	}
@@ -11423,22 +11423,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_data_day = panelist_data_day;
 	}
 
-	public int getPanelist_ppmonth()
+	public java.lang.Integer getPanelist_ppmonth()
 	{
 		return this.panelist_ppmonth;
 	}
 
-	public void setPanelist_ppmonth(int panelist_ppmonth)
+	public void setPanelist_ppmonth(java.lang.Integer panelist_ppmonth)
 	{
 		 this.panelist_ppmonth = panelist_ppmonth;
 	}
 
-	public int getPanelist_ppweek()
+	public java.lang.Integer getPanelist_ppweek()
 	{
 		return this.panelist_ppweek;
 	}
 
-	public void setPanelist_ppweek(int panelist_ppweek)
+	public void setPanelist_ppweek(java.lang.Integer panelist_ppweek)
 	{
 		 this.panelist_ppweek = panelist_ppweek;
 	}
@@ -11483,12 +11483,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_primary_key.add(drools_Panelist_primary_key);
 	}
 
-	public long getPanelist_panelist_id()
+	public java.lang.Long getPanelist_panelist_id()
 	{
 		return this.panelist_panelist_id;
 	}
 
-	public void setPanelist_panelist_id(long panelist_panelist_id)
+	public void setPanelist_panelist_id(java.lang.Long panelist_panelist_id)
 	{
 		 this.panelist_panelist_id = panelist_panelist_id;
 	}
@@ -11523,12 +11523,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_household_head = panelist_household_head;
 	}
 
-	public int getPanelist_age()
+	public java.lang.Integer getPanelist_age()
 	{
 		return this.panelist_age;
 	}
 
-	public void setPanelist_age(int panelist_age)
+	public void setPanelist_age(java.lang.Integer panelist_age)
 	{
 		 this.panelist_age = panelist_age;
 	}
@@ -11563,32 +11563,32 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_head_of_household_age = panelist_head_of_household_age;
 	}
 
-	public int getPanelist_survey_age()
+	public java.lang.Integer getPanelist_survey_age()
 	{
 		return this.panelist_survey_age;
 	}
 
-	public void setPanelist_survey_age(int panelist_survey_age)
+	public void setPanelist_survey_age(java.lang.Integer panelist_survey_age)
 	{
 		 this.panelist_survey_age = panelist_survey_age;
 	}
 
-	public long getPanelist_gender()
+	public java.lang.Long getPanelist_gender()
 	{
 		return this.panelist_gender;
 	}
 
-	public void setPanelist_gender(long panelist_gender)
+	public void setPanelist_gender(java.lang.Long panelist_gender)
 	{
 		 this.panelist_gender = panelist_gender;
 	}
 
-	public long getPanelist_survey_gender()
+	public java.lang.Long getPanelist_survey_gender()
 	{
 		return this.panelist_survey_gender;
 	}
 
-	public void setPanelist_survey_gender(long panelist_survey_gender)
+	public void setPanelist_survey_gender(java.lang.Long panelist_survey_gender)
 	{
 		 this.panelist_survey_gender = panelist_survey_gender;
 	}
@@ -11763,12 +11763,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_household_income = panelist_household_income;
 	}
 
-	public long getPanelist_household_size()
+	public java.lang.Long getPanelist_household_size()
 	{
 		return this.panelist_household_size;
 	}
 
-	public void setPanelist_household_size(long panelist_household_size)
+	public void setPanelist_household_size(java.lang.Long panelist_household_size)
 	{
 		 this.panelist_household_size = panelist_household_size;
 	}
@@ -11863,12 +11863,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_pg_market_size = panelist_pg_market_size;
 	}
 
-	public long getPanelist_state()
+	public java.lang.Long getPanelist_state()
 	{
 		return this.panelist_state;
 	}
 
-	public void setPanelist_state(long panelist_state)
+	public void setPanelist_state(java.lang.Long panelist_state)
 	{
 		 this.panelist_state = panelist_state;
 	}
@@ -11913,12 +11913,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_group_number = panelist_group_number;
 	}
 
-	public long getPanelist_number_of_trackers()
+	public java.lang.Long getPanelist_number_of_trackers()
 	{
 		return this.panelist_number_of_trackers;
 	}
 
-	public void setPanelist_number_of_trackers(long panelist_number_of_trackers)
+	public void setPanelist_number_of_trackers(java.lang.Long panelist_number_of_trackers)
 	{
 		 this.panelist_number_of_trackers = panelist_number_of_trackers;
 	}
@@ -12113,22 +12113,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_inactive_reclaim_counter = panelist_inactive_reclaim_counter;
 	}
 
-	public double getPanelist_factors__projection_factor()
+	public java.lang.Double getPanelist_factors__projection_factor()
 	{
 		return this.panelist_factors__projection_factor;
 	}
 
-	public void setPanelist_factors__projection_factor(double panelist_factors__projection_factor)
+	public void setPanelist_factors__projection_factor(java.lang.Double panelist_factors__projection_factor)
 	{
 		 this.panelist_factors__projection_factor = panelist_factors__projection_factor;
 	}
 
-	public double getPanelist_factors__routing_factor()
+	public java.lang.Double getPanelist_factors__routing_factor()
 	{
 		return this.panelist_factors__routing_factor;
 	}
 
-	public void setPanelist_factors__routing_factor(double panelist_factors__routing_factor)
+	public void setPanelist_factors__routing_factor(java.lang.Double panelist_factors__routing_factor)
 	{
 		 this.panelist_factors__routing_factor = panelist_factors__routing_factor;
 	}
@@ -12143,12 +12143,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_0 = panelist_panelist_attr_0;
 	}
 
-	public long getPanelist_panelist_attr_1()
+	public java.lang.Long getPanelist_panelist_attr_1()
 	{
 		return this.panelist_panelist_attr_1;
 	}
 
-	public void setPanelist_panelist_attr_1(long panelist_panelist_attr_1)
+	public void setPanelist_panelist_attr_1(java.lang.Long panelist_panelist_attr_1)
 	{
 		 this.panelist_panelist_attr_1 = panelist_panelist_attr_1;
 	}
@@ -12163,32 +12163,32 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_2 = panelist_panelist_attr_2;
 	}
 
-	public long getPanelist_panelist_attr_3()
+	public java.lang.Long getPanelist_panelist_attr_3()
 	{
 		return this.panelist_panelist_attr_3;
 	}
 
-	public void setPanelist_panelist_attr_3(long panelist_panelist_attr_3)
+	public void setPanelist_panelist_attr_3(java.lang.Long panelist_panelist_attr_3)
 	{
 		 this.panelist_panelist_attr_3 = panelist_panelist_attr_3;
 	}
 
-	public long getPanelist_panelist_attr_4()
+	public java.lang.Long getPanelist_panelist_attr_4()
 	{
 		return this.panelist_panelist_attr_4;
 	}
 
-	public void setPanelist_panelist_attr_4(long panelist_panelist_attr_4)
+	public void setPanelist_panelist_attr_4(java.lang.Long panelist_panelist_attr_4)
 	{
 		 this.panelist_panelist_attr_4 = panelist_panelist_attr_4;
 	}
 
-	public long getPanelist_panelist_attr_5()
+	public java.lang.Long getPanelist_panelist_attr_5()
 	{
 		return this.panelist_panelist_attr_5;
 	}
 
-	public void setPanelist_panelist_attr_5(long panelist_panelist_attr_5)
+	public void setPanelist_panelist_attr_5(java.lang.Long panelist_panelist_attr_5)
 	{
 		 this.panelist_panelist_attr_5 = panelist_panelist_attr_5;
 	}
@@ -12213,12 +12213,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_7 = panelist_panelist_attr_7;
 	}
 
-	public long getPanelist_panelist_attr_8()
+	public java.lang.Long getPanelist_panelist_attr_8()
 	{
 		return this.panelist_panelist_attr_8;
 	}
 
-	public void setPanelist_panelist_attr_8(long panelist_panelist_attr_8)
+	public void setPanelist_panelist_attr_8(java.lang.Long panelist_panelist_attr_8)
 	{
 		 this.panelist_panelist_attr_8 = panelist_panelist_attr_8;
 	}
@@ -12243,12 +12243,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_10 = panelist_panelist_attr_10;
 	}
 
-	public long getPanelist_panelist_attr_11()
+	public java.lang.Long getPanelist_panelist_attr_11()
 	{
 		return this.panelist_panelist_attr_11;
 	}
 
-	public void setPanelist_panelist_attr_11(long panelist_panelist_attr_11)
+	public void setPanelist_panelist_attr_11(java.lang.Long panelist_panelist_attr_11)
 	{
 		 this.panelist_panelist_attr_11 = panelist_panelist_attr_11;
 	}
@@ -12333,22 +12333,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_19 = panelist_panelist_attr_19;
 	}
 
-	public long getPanelist_panelist_attr_20()
+	public java.lang.Long getPanelist_panelist_attr_20()
 	{
 		return this.panelist_panelist_attr_20;
 	}
 
-	public void setPanelist_panelist_attr_20(long panelist_panelist_attr_20)
+	public void setPanelist_panelist_attr_20(java.lang.Long panelist_panelist_attr_20)
 	{
 		 this.panelist_panelist_attr_20 = panelist_panelist_attr_20;
 	}
 
-	public long getPanelist_panelist_attr_21()
+	public java.lang.Long getPanelist_panelist_attr_21()
 	{
 		return this.panelist_panelist_attr_21;
 	}
 
-	public void setPanelist_panelist_attr_21(long panelist_panelist_attr_21)
+	public void setPanelist_panelist_attr_21(java.lang.Long panelist_panelist_attr_21)
 	{
 		 this.panelist_panelist_attr_21 = panelist_panelist_attr_21;
 	}
@@ -12363,42 +12363,42 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_22 = panelist_panelist_attr_22;
 	}
 
-	public long getPanelist_panelist_attr_23()
+	public java.lang.Long getPanelist_panelist_attr_23()
 	{
 		return this.panelist_panelist_attr_23;
 	}
 
-	public void setPanelist_panelist_attr_23(long panelist_panelist_attr_23)
+	public void setPanelist_panelist_attr_23(java.lang.Long panelist_panelist_attr_23)
 	{
 		 this.panelist_panelist_attr_23 = panelist_panelist_attr_23;
 	}
 
-	public long getPanelist_panelist_attr_24()
+	public java.lang.Long getPanelist_panelist_attr_24()
 	{
 		return this.panelist_panelist_attr_24;
 	}
 
-	public void setPanelist_panelist_attr_24(long panelist_panelist_attr_24)
+	public void setPanelist_panelist_attr_24(java.lang.Long panelist_panelist_attr_24)
 	{
 		 this.panelist_panelist_attr_24 = panelist_panelist_attr_24;
 	}
 
-	public long getPanelist_panelist_attr_25()
+	public java.lang.Long getPanelist_panelist_attr_25()
 	{
 		return this.panelist_panelist_attr_25;
 	}
 
-	public void setPanelist_panelist_attr_25(long panelist_panelist_attr_25)
+	public void setPanelist_panelist_attr_25(java.lang.Long panelist_panelist_attr_25)
 	{
 		 this.panelist_panelist_attr_25 = panelist_panelist_attr_25;
 	}
 
-	public long getPanelist_panelist_attr_26()
+	public java.lang.Long getPanelist_panelist_attr_26()
 	{
 		return this.panelist_panelist_attr_26;
 	}
 
-	public void setPanelist_panelist_attr_26(long panelist_panelist_attr_26)
+	public void setPanelist_panelist_attr_26(java.lang.Long panelist_panelist_attr_26)
 	{
 		 this.panelist_panelist_attr_26 = panelist_panelist_attr_26;
 	}
@@ -12413,52 +12413,52 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_27 = panelist_panelist_attr_27;
 	}
 
-	public long getPanelist_panelist_attr_28()
+	public java.lang.Long getPanelist_panelist_attr_28()
 	{
 		return this.panelist_panelist_attr_28;
 	}
 
-	public void setPanelist_panelist_attr_28(long panelist_panelist_attr_28)
+	public void setPanelist_panelist_attr_28(java.lang.Long panelist_panelist_attr_28)
 	{
 		 this.panelist_panelist_attr_28 = panelist_panelist_attr_28;
 	}
 
-	public long getPanelist_panelist_attr_29()
+	public java.lang.Long getPanelist_panelist_attr_29()
 	{
 		return this.panelist_panelist_attr_29;
 	}
 
-	public void setPanelist_panelist_attr_29(long panelist_panelist_attr_29)
+	public void setPanelist_panelist_attr_29(java.lang.Long panelist_panelist_attr_29)
 	{
 		 this.panelist_panelist_attr_29 = panelist_panelist_attr_29;
 	}
 
-	public long getPanelist_panelist_attr_30()
+	public java.lang.Long getPanelist_panelist_attr_30()
 	{
 		return this.panelist_panelist_attr_30;
 	}
 
-	public void setPanelist_panelist_attr_30(long panelist_panelist_attr_30)
+	public void setPanelist_panelist_attr_30(java.lang.Long panelist_panelist_attr_30)
 	{
 		 this.panelist_panelist_attr_30 = panelist_panelist_attr_30;
 	}
 
-	public double getPanelist_panelist_attr_31()
+	public java.lang.Double getPanelist_panelist_attr_31()
 	{
 		return this.panelist_panelist_attr_31;
 	}
 
-	public void setPanelist_panelist_attr_31(double panelist_panelist_attr_31)
+	public void setPanelist_panelist_attr_31(java.lang.Double panelist_panelist_attr_31)
 	{
 		 this.panelist_panelist_attr_31 = panelist_panelist_attr_31;
 	}
 
-	public long getPanelist_panelist_attr_32()
+	public java.lang.Long getPanelist_panelist_attr_32()
 	{
 		return this.panelist_panelist_attr_32;
 	}
 
-	public void setPanelist_panelist_attr_32(long panelist_panelist_attr_32)
+	public void setPanelist_panelist_attr_32(java.lang.Long panelist_panelist_attr_32)
 	{
 		 this.panelist_panelist_attr_32 = panelist_panelist_attr_32;
 	}
@@ -12473,22 +12473,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_33 = panelist_panelist_attr_33;
 	}
 
-	public long getPanelist_panelist_attr_34()
+	public java.lang.Long getPanelist_panelist_attr_34()
 	{
 		return this.panelist_panelist_attr_34;
 	}
 
-	public void setPanelist_panelist_attr_34(long panelist_panelist_attr_34)
+	public void setPanelist_panelist_attr_34(java.lang.Long panelist_panelist_attr_34)
 	{
 		 this.panelist_panelist_attr_34 = panelist_panelist_attr_34;
 	}
 
-	public long getPanelist_panelist_attr_35()
+	public java.lang.Long getPanelist_panelist_attr_35()
 	{
 		return this.panelist_panelist_attr_35;
 	}
 
-	public void setPanelist_panelist_attr_35(long panelist_panelist_attr_35)
+	public void setPanelist_panelist_attr_35(java.lang.Long panelist_panelist_attr_35)
 	{
 		 this.panelist_panelist_attr_35 = panelist_panelist_attr_35;
 	}
@@ -12503,42 +12503,42 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_36 = panelist_panelist_attr_36;
 	}
 
-	public long getPanelist_panelist_attr_37()
+	public java.lang.Long getPanelist_panelist_attr_37()
 	{
 		return this.panelist_panelist_attr_37;
 	}
 
-	public void setPanelist_panelist_attr_37(long panelist_panelist_attr_37)
+	public void setPanelist_panelist_attr_37(java.lang.Long panelist_panelist_attr_37)
 	{
 		 this.panelist_panelist_attr_37 = panelist_panelist_attr_37;
 	}
 
-	public long getPanelist_panelist_attr_38()
+	public java.lang.Long getPanelist_panelist_attr_38()
 	{
 		return this.panelist_panelist_attr_38;
 	}
 
-	public void setPanelist_panelist_attr_38(long panelist_panelist_attr_38)
+	public void setPanelist_panelist_attr_38(java.lang.Long panelist_panelist_attr_38)
 	{
 		 this.panelist_panelist_attr_38 = panelist_panelist_attr_38;
 	}
 
-	public long getPanelist_panelist_attr_39()
+	public java.lang.Long getPanelist_panelist_attr_39()
 	{
 		return this.panelist_panelist_attr_39;
 	}
 
-	public void setPanelist_panelist_attr_39(long panelist_panelist_attr_39)
+	public void setPanelist_panelist_attr_39(java.lang.Long panelist_panelist_attr_39)
 	{
 		 this.panelist_panelist_attr_39 = panelist_panelist_attr_39;
 	}
 
-	public java.lang.String getPanelist_panelist_attr_40()
+	public java.lang.Long getPanelist_panelist_attr_40()
 	{
 		return this.panelist_panelist_attr_40;
 	}
 
-	public void setPanelist_panelist_attr_40(java.lang.String panelist_panelist_attr_40)
+	public void setPanelist_panelist_attr_40(java.lang.Long panelist_panelist_attr_40)
 	{
 		 this.panelist_panelist_attr_40 = panelist_panelist_attr_40;
 	}
@@ -12553,32 +12553,32 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_41 = panelist_panelist_attr_41;
 	}
 
-	public long getPanelist_panelist_attr_42()
+	public java.lang.Long getPanelist_panelist_attr_42()
 	{
 		return this.panelist_panelist_attr_42;
 	}
 
-	public void setPanelist_panelist_attr_42(long panelist_panelist_attr_42)
+	public void setPanelist_panelist_attr_42(java.lang.Long panelist_panelist_attr_42)
 	{
 		 this.panelist_panelist_attr_42 = panelist_panelist_attr_42;
 	}
 
-	public long getPanelist_panelist_attr_43()
+	public java.lang.Long getPanelist_panelist_attr_43()
 	{
 		return this.panelist_panelist_attr_43;
 	}
 
-	public void setPanelist_panelist_attr_43(long panelist_panelist_attr_43)
+	public void setPanelist_panelist_attr_43(java.lang.Long panelist_panelist_attr_43)
 	{
 		 this.panelist_panelist_attr_43 = panelist_panelist_attr_43;
 	}
 
-	public long getPanelist_panelist_attr_44()
+	public java.lang.Long getPanelist_panelist_attr_44()
 	{
 		return this.panelist_panelist_attr_44;
 	}
 
-	public void setPanelist_panelist_attr_44(long panelist_panelist_attr_44)
+	public void setPanelist_panelist_attr_44(java.lang.Long panelist_panelist_attr_44)
 	{
 		 this.panelist_panelist_attr_44 = panelist_panelist_attr_44;
 	}
@@ -12593,12 +12593,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_45 = panelist_panelist_attr_45;
 	}
 
-	public long getPanelist_panelist_attr_46()
+	public java.lang.Long getPanelist_panelist_attr_46()
 	{
 		return this.panelist_panelist_attr_46;
 	}
 
-	public void setPanelist_panelist_attr_46(long panelist_panelist_attr_46)
+	public void setPanelist_panelist_attr_46(java.lang.Long panelist_panelist_attr_46)
 	{
 		 this.panelist_panelist_attr_46 = panelist_panelist_attr_46;
 	}
@@ -12663,22 +12663,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_52 = panelist_panelist_attr_52;
 	}
 
-	public long getPanelist_panelist_attr_53()
+	public java.lang.Long getPanelist_panelist_attr_53()
 	{
 		return this.panelist_panelist_attr_53;
 	}
 
-	public void setPanelist_panelist_attr_53(long panelist_panelist_attr_53)
+	public void setPanelist_panelist_attr_53(java.lang.Long panelist_panelist_attr_53)
 	{
 		 this.panelist_panelist_attr_53 = panelist_panelist_attr_53;
 	}
 
-	public long getPanelist_panelist_attr_54()
+	public java.lang.Long getPanelist_panelist_attr_54()
 	{
 		return this.panelist_panelist_attr_54;
 	}
 
-	public void setPanelist_panelist_attr_54(long panelist_panelist_attr_54)
+	public void setPanelist_panelist_attr_54(java.lang.Long panelist_panelist_attr_54)
 	{
 		 this.panelist_panelist_attr_54 = panelist_panelist_attr_54;
 	}
@@ -12693,32 +12693,32 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_55 = panelist_panelist_attr_55;
 	}
 
-	public long getPanelist_panelist_attr_56()
+	public java.lang.Long getPanelist_panelist_attr_56()
 	{
 		return this.panelist_panelist_attr_56;
 	}
 
-	public void setPanelist_panelist_attr_56(long panelist_panelist_attr_56)
+	public void setPanelist_panelist_attr_56(java.lang.Long panelist_panelist_attr_56)
 	{
 		 this.panelist_panelist_attr_56 = panelist_panelist_attr_56;
 	}
 
-	public long getPanelist_panelist_attr_57()
+	public java.lang.Long getPanelist_panelist_attr_57()
 	{
 		return this.panelist_panelist_attr_57;
 	}
 
-	public void setPanelist_panelist_attr_57(long panelist_panelist_attr_57)
+	public void setPanelist_panelist_attr_57(java.lang.Long panelist_panelist_attr_57)
 	{
 		 this.panelist_panelist_attr_57 = panelist_panelist_attr_57;
 	}
 
-	public long getPanelist_panelist_attr_58()
+	public java.lang.Long getPanelist_panelist_attr_58()
 	{
 		return this.panelist_panelist_attr_58;
 	}
 
-	public void setPanelist_panelist_attr_58(long panelist_panelist_attr_58)
+	public void setPanelist_panelist_attr_58(java.lang.Long panelist_panelist_attr_58)
 	{
 		 this.panelist_panelist_attr_58 = panelist_panelist_attr_58;
 	}
@@ -12743,132 +12743,132 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_60 = panelist_panelist_attr_60;
 	}
 
-	public long getPanelist_panelist_attr_61()
+	public java.lang.Long getPanelist_panelist_attr_61()
 	{
 		return this.panelist_panelist_attr_61;
 	}
 
-	public void setPanelist_panelist_attr_61(long panelist_panelist_attr_61)
+	public void setPanelist_panelist_attr_61(java.lang.Long panelist_panelist_attr_61)
 	{
 		 this.panelist_panelist_attr_61 = panelist_panelist_attr_61;
 	}
 
-	public long getPanelist_panelist_attr_62()
+	public java.lang.Long getPanelist_panelist_attr_62()
 	{
 		return this.panelist_panelist_attr_62;
 	}
 
-	public void setPanelist_panelist_attr_62(long panelist_panelist_attr_62)
+	public void setPanelist_panelist_attr_62(java.lang.Long panelist_panelist_attr_62)
 	{
 		 this.panelist_panelist_attr_62 = panelist_panelist_attr_62;
 	}
 
-	public long getPanelist_panelist_attr_63()
+	public java.lang.Long getPanelist_panelist_attr_63()
 	{
 		return this.panelist_panelist_attr_63;
 	}
 
-	public void setPanelist_panelist_attr_63(long panelist_panelist_attr_63)
+	public void setPanelist_panelist_attr_63(java.lang.Long panelist_panelist_attr_63)
 	{
 		 this.panelist_panelist_attr_63 = panelist_panelist_attr_63;
 	}
 
-	public long getPanelist_panelist_attr_64()
+	public java.lang.Long getPanelist_panelist_attr_64()
 	{
 		return this.panelist_panelist_attr_64;
 	}
 
-	public void setPanelist_panelist_attr_64(long panelist_panelist_attr_64)
+	public void setPanelist_panelist_attr_64(java.lang.Long panelist_panelist_attr_64)
 	{
 		 this.panelist_panelist_attr_64 = panelist_panelist_attr_64;
 	}
 
-	public long getPanelist_panelist_attr_65()
+	public java.lang.Long getPanelist_panelist_attr_65()
 	{
 		return this.panelist_panelist_attr_65;
 	}
 
-	public void setPanelist_panelist_attr_65(long panelist_panelist_attr_65)
+	public void setPanelist_panelist_attr_65(java.lang.Long panelist_panelist_attr_65)
 	{
 		 this.panelist_panelist_attr_65 = panelist_panelist_attr_65;
 	}
 
-	public long getPanelist_panelist_attr_66()
+	public java.lang.Long getPanelist_panelist_attr_66()
 	{
 		return this.panelist_panelist_attr_66;
 	}
 
-	public void setPanelist_panelist_attr_66(long panelist_panelist_attr_66)
+	public void setPanelist_panelist_attr_66(java.lang.Long panelist_panelist_attr_66)
 	{
 		 this.panelist_panelist_attr_66 = panelist_panelist_attr_66;
 	}
 
-	public long getPanelist_panelist_attr_67()
+	public java.lang.Long getPanelist_panelist_attr_67()
 	{
 		return this.panelist_panelist_attr_67;
 	}
 
-	public void setPanelist_panelist_attr_67(long panelist_panelist_attr_67)
+	public void setPanelist_panelist_attr_67(java.lang.Long panelist_panelist_attr_67)
 	{
 		 this.panelist_panelist_attr_67 = panelist_panelist_attr_67;
 	}
 
-	public long getPanelist_panelist_attr_68()
+	public java.lang.Long getPanelist_panelist_attr_68()
 	{
 		return this.panelist_panelist_attr_68;
 	}
 
-	public void setPanelist_panelist_attr_68(long panelist_panelist_attr_68)
+	public void setPanelist_panelist_attr_68(java.lang.Long panelist_panelist_attr_68)
 	{
 		 this.panelist_panelist_attr_68 = panelist_panelist_attr_68;
 	}
 
-	public long getPanelist_panelist_attr_69()
+	public java.lang.Long getPanelist_panelist_attr_69()
 	{
 		return this.panelist_panelist_attr_69;
 	}
 
-	public void setPanelist_panelist_attr_69(long panelist_panelist_attr_69)
+	public void setPanelist_panelist_attr_69(java.lang.Long panelist_panelist_attr_69)
 	{
 		 this.panelist_panelist_attr_69 = panelist_panelist_attr_69;
 	}
 
-	public long getPanelist_panelist_attr_70()
+	public java.lang.Long getPanelist_panelist_attr_70()
 	{
 		return this.panelist_panelist_attr_70;
 	}
 
-	public void setPanelist_panelist_attr_70(long panelist_panelist_attr_70)
+	public void setPanelist_panelist_attr_70(java.lang.Long panelist_panelist_attr_70)
 	{
 		 this.panelist_panelist_attr_70 = panelist_panelist_attr_70;
 	}
 
-	public long getPanelist_panelist_attr_71()
+	public java.lang.Long getPanelist_panelist_attr_71()
 	{
 		return this.panelist_panelist_attr_71;
 	}
 
-	public void setPanelist_panelist_attr_71(long panelist_panelist_attr_71)
+	public void setPanelist_panelist_attr_71(java.lang.Long panelist_panelist_attr_71)
 	{
 		 this.panelist_panelist_attr_71 = panelist_panelist_attr_71;
 	}
 
-	public long getPanelist_panelist_attr_72()
+	public java.lang.Long getPanelist_panelist_attr_72()
 	{
 		return this.panelist_panelist_attr_72;
 	}
 
-	public void setPanelist_panelist_attr_72(long panelist_panelist_attr_72)
+	public void setPanelist_panelist_attr_72(java.lang.Long panelist_panelist_attr_72)
 	{
 		 this.panelist_panelist_attr_72 = panelist_panelist_attr_72;
 	}
 
-	public long getPanelist_panelist_attr_73()
+	public java.lang.Long getPanelist_panelist_attr_73()
 	{
 		return this.panelist_panelist_attr_73;
 	}
 
-	public void setPanelist_panelist_attr_73(long panelist_panelist_attr_73)
+	public void setPanelist_panelist_attr_73(java.lang.Long panelist_panelist_attr_73)
 	{
 		 this.panelist_panelist_attr_73 = panelist_panelist_attr_73;
 	}
@@ -13053,22 +13053,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_91 = panelist_panelist_attr_91;
 	}
 
-	public long getPanelist_panelist_attr_92()
+	public java.lang.Long getPanelist_panelist_attr_92()
 	{
 		return this.panelist_panelist_attr_92;
 	}
 
-	public void setPanelist_panelist_attr_92(long panelist_panelist_attr_92)
+	public void setPanelist_panelist_attr_92(java.lang.Long panelist_panelist_attr_92)
 	{
 		 this.panelist_panelist_attr_92 = panelist_panelist_attr_92;
 	}
 
-	public long getPanelist_panelist_attr_93()
+	public java.lang.Long getPanelist_panelist_attr_93()
 	{
 		return this.panelist_panelist_attr_93;
 	}
 
-	public void setPanelist_panelist_attr_93(long panelist_panelist_attr_93)
+	public void setPanelist_panelist_attr_93(java.lang.Long panelist_panelist_attr_93)
 	{
 		 this.panelist_panelist_attr_93 = panelist_panelist_attr_93;
 	}
@@ -16923,12 +16923,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_confirmit_jobnum = panelist_confirmit_jobnum;
 	}
 
-	public long getPanelist_education_dim__level_0()
+	public java.lang.Long getPanelist_education_dim__level_0()
 	{
 		return this.panelist_education_dim__level_0;
 	}
 
-	public void setPanelist_education_dim__level_0(long panelist_education_dim__level_0)
+	public void setPanelist_education_dim__level_0(java.lang.Long panelist_education_dim__level_0)
 	{
 		 this.panelist_education_dim__level_0 = panelist_education_dim__level_0;
 	}
@@ -17003,22 +17003,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_education_dim__level_7 = panelist_education_dim__level_7;
 	}
 
-	public long getPanelist_education_dim__level_8()
+	public java.lang.Long getPanelist_education_dim__level_8()
 	{
 		return this.panelist_education_dim__level_8;
 	}
 
-	public void setPanelist_education_dim__level_8(long panelist_education_dim__level_8)
+	public void setPanelist_education_dim__level_8(java.lang.Long panelist_education_dim__level_8)
 	{
 		 this.panelist_education_dim__level_8 = panelist_education_dim__level_8;
 	}
 
-	public long getPanelist_education_dim__level_9()
+	public java.lang.Long getPanelist_education_dim__level_9()
 	{
 		return this.panelist_education_dim__level_9;
 	}
 
-	public void setPanelist_education_dim__level_9(long panelist_education_dim__level_9)
+	public void setPanelist_education_dim__level_9(java.lang.Long panelist_education_dim__level_9)
 	{
 		 this.panelist_education_dim__level_9 = panelist_education_dim__level_9;
 	}
@@ -17333,42 +17333,42 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_complete_flag = panelist_complete_flag;
 	}
 
-	public int getPanelist_status()
+	public java.lang.Integer getPanelist_status()
 	{
 		return this.panelist_status;
 	}
 
-	public void setPanelist_status(int panelist_status)
+	public void setPanelist_status(java.lang.Integer panelist_status)
 	{
 		 this.panelist_status = panelist_status;
 	}
 
-	public long getPanelist_factor_values_0()
+	public java.lang.Long getPanelist_factor_values_0()
 	{
 		return this.panelist_factor_values_0;
 	}
 
-	public void setPanelist_factor_values_0(long panelist_factor_values_0)
+	public void setPanelist_factor_values_0(java.lang.Long panelist_factor_values_0)
 	{
 		 this.panelist_factor_values_0 = panelist_factor_values_0;
 	}
 
-	public long getPanelist_factor_values_1()
+	public java.lang.Long getPanelist_factor_values_1()
 	{
 		return this.panelist_factor_values_1;
 	}
 
-	public void setPanelist_factor_values_1(long panelist_factor_values_1)
+	public void setPanelist_factor_values_1(java.lang.Long panelist_factor_values_1)
 	{
 		 this.panelist_factor_values_1 = panelist_factor_values_1;
 	}
 
-	public double getPanelist_factor_values_2()
+	public java.lang.Double getPanelist_factor_values_2()
 	{
 		return this.panelist_factor_values_2;
 	}
 
-	public void setPanelist_factor_values_2(double panelist_factor_values_2)
+	public void setPanelist_factor_values_2(java.lang.Double panelist_factor_values_2)
 	{
 		 this.panelist_factor_values_2 = panelist_factor_values_2;
 	}
@@ -17443,22 +17443,22 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_factor_values_9 = panelist_factor_values_9;
 	}
 
-	public long getPanelist_factor_values_10()
+	public java.lang.Long getPanelist_factor_values_10()
 	{
 		return this.panelist_factor_values_10;
 	}
 
-	public void setPanelist_factor_values_10(long panelist_factor_values_10)
+	public void setPanelist_factor_values_10(java.lang.Long panelist_factor_values_10)
 	{
 		 this.panelist_factor_values_10 = panelist_factor_values_10;
 	}
 
-	public long getPanelist_factor_values_11()
+	public java.lang.Long getPanelist_factor_values_11()
 	{
 		return this.panelist_factor_values_11;
 	}
 
-	public void setPanelist_factor_values_11(long panelist_factor_values_11)
+	public void setPanelist_factor_values_11(java.lang.Long panelist_factor_values_11)
 	{
 		 this.panelist_factor_values_11 = panelist_factor_values_11;
 	}
@@ -19093,13 +19093,13 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_end_of_rec = panelist_end_of_rec;
 	}
 	
-	public Number decimalRound(java.lang.Number num, int num_places){
+	public Number decimalRound(java.lang.Number num, java.lang.Integer num_places){
         try{
             if(num_places<0) 
              num_places = 0 ;
    
             String format = (num_places == 0)? "#" :"#.";
-            for(int i =1;i<=num_places;i++){
+            for(java.lang.Integer i =1;i<=num_places;i++){
                 format = format.concat("#");
             }
         DecimalFormat df = new DecimalFormat(format);
@@ -19111,14 +19111,14 @@ private java.lang.String panelist_panelist_attr_100;
         }
     }
 
-    public java.math.BigDecimal decimalRound(java.math.BigDecimal num, int num_places){
+    public java.math.BigDecimal decimalRound(java.math.BigDecimal num, java.lang.Integer num_places){
        
          
             if(num_places<0)
             return num;
             
             String format = (num_places == 0)? "#" :"#.";
-            for(int i =1;i<=num_places;i++){
+            for(java.lang.Integer i =1;i<=num_places;i++){
                 format = format.concat("#");
             }
         DecimalFormat df = new DecimalFormat(format);
@@ -19128,5 +19128,25 @@ private java.lang.String panelist_panelist_attr_100;
         
        
     }
+
+ public ArrayList<String> convertVectorToString(java.util.List inputList){
+ ArrayList<String> strList = new ArrayList<String>();
+ 
+ if(inputList != null && inputList.size() != 0){
+  String combineVectorStr = "";
+ 
+  for(Object str : inputList){
+   combineVectorStr = combineVectorStr + str + "~";
+  }
+  strList.add(combineVectorStr);
+  return strList;
+ }
+ return strList;
+}
+
+public java.lang.Integer countListElements(java.util.List lst){
+lst.removeAll(java.util.Arrays.asList("", null));
+     return lst.size();
+}
 
 }
