@@ -1164,7 +1164,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.Long panelist_panelist_attr_38;
 	private java.lang.Long panelist_panelist_attr_39;
 	private java.lang.Long panelist_panelist_attr_40;
-	private java.lang.String panelist_panelist_attr_41;
+	private java.lang.Long panelist_panelist_attr_41;
 	private java.lang.Long panelist_panelist_attr_42;
 	private java.lang.Long panelist_panelist_attr_43;
 	private java.lang.Long panelist_panelist_attr_44;
@@ -12543,12 +12543,12 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_panelist_attr_40 = panelist_panelist_attr_40;
 	}
 
-	public java.lang.String getPanelist_panelist_attr_41()
+	public java.lang.Long getPanelist_panelist_attr_41()
 	{
 		return this.panelist_panelist_attr_41;
 	}
 
-	public void setPanelist_panelist_attr_41(java.lang.String panelist_panelist_attr_41)
+	public void setPanelist_panelist_attr_41(java.lang.Long panelist_panelist_attr_41)
 	{
 		 this.panelist_panelist_attr_41 = panelist_panelist_attr_41;
 	}
