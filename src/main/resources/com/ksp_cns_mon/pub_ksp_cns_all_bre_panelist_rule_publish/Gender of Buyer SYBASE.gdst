@@ -83,7 +83,7 @@
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.ksp_cns_mon.pub_ksp_cns_all_bre_panelist_rule_publish__work</packageName>
+  <packageName>com.ksp_cns_mon.pub_ksp_cns_all_bre_panelist_rule_publish</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
